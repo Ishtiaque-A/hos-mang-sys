@@ -1,0 +1,840 @@
+.top-hr  {
+    margin: 0.3rem 0 !important;
+}
+.medication__chart__container{
+    padding-top: 10px;
+}
+.medication__chart__container .tab-content {
+    border: none !important;
+    border-top: 0;
+    padding: 0.1rem 0.5rem !important;
+    text-align: justify;
+}
+.medication__chart__container .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff!important;
+    border-left: none !important;
+    background-color: transparent !important;
+    background: #69B128 !important;
+    font-size: 11px !important;
+}
+.medication__chart__container .nav-pills .nav-link {
+    border: none;
+    padding: 0.5rem 1rem !important;
+}
+.medication__chart__container .nav-link {
+    font-size: 11px;
+    color: #495057 !important;
+    background-color: #fff;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.15) !important;
+}
+.medication__chart__container .nav-pills {
+    border-bottom: none !important;
+    padding-bottom: 1rem;
+}
+.medication__chart__container .form-check-label {
+    min-height: 14px !important;
+    margin-left: 0.3rem !important;
+    font-size: 12px;
+}
+.medication__form__check{
+    margin-top: 4px !important;
+}
+.medication__text{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+.medication__text__chart{
+    color: #2D2D2C;
+}
+.medication__text__page{
+    color: #959595;
+}
+.allergies__bg{
+    background: white;
+    border: white;
+    padding: 4px;
+}
+.allergies{
+    border: 1px solid #E8392E!important;
+}
+.allergies__text{
+    color: #E8392E;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0rem !important;
+}
+.allergies__checkbox{
+    color: #E8392E;
+    padding: 0px 4px 0px 4px;
+}
+.form__allergies__checkbox{
+    border: 1px solid #E8392E !important;
+}
+.unknown__span{
+    font-size: 11px;
+}
+/* table start */
+.allergies__table{
+    font-family: arial, sans-serif;
+    width: 100%;
+    margin-top: 50px;
+    /* margin: auto; */
+    table-layout: auto;
+}
+.allergies__table td{
+    border: 1px solid #E8392E;
+    padding: 8px;
+    text-align: center;
+    color: #E8392E;
+}
+.allergies__table .tableHead{
+    border: 1px solid #E8392E;
+    padding: 8px;
+    text-align: center;
+    color: #E8392E;
+    background-color: #E8392E;
+}
+/* table end  */
+
+
+
+.allergies__text__p {
+    color: #E8392E;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 0rem !important;
+}
+.allergies__right{
+    background: white;
+    border: #2D2D2C;
+}
+.allergies__input{
+    border: 0px;
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+.allergies__input:hover{
+    border: 0px;
+}
+.allergies__text__first{
+    color: #E8392E;
+    font-weight: bold;
+    margin-bottom: 0rem !important;
+    line-height: 1rem !important;
+}
+.allergies__text__first__dot{
+    color: #E8392E;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+.allergies__text__span{
+    color: #464645;
+    font-weight: 500;
+    margin-bottom: 0.2rem !important;
+    line-height: 1.4rem !important;
+}
+.allergies-text {
+    color: #464645;
+    font-weight: 400;
+}
+
+.hr__first {
+    margin: 0rem 0;
+    background-color: black !important;
+}
+.border__urn{
+    border: 1px solid black!important;
+}
+.allergies__text__date, .allergies__text__sex{
+    color: #464645;
+    font-weight: 500;
+    margin-bottom: 0rem !important;
+}
+.form__check{
+    margin-top: 5px !important;
+}
+.form__birthdate__checkbox{
+    border: 1px solid black !important;
+}
+.allergies__text__address{
+    color: #464645;
+    font-weight: 500;
+    height: 35px;
+}
+.first__text__color{
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+    color: #464645;
+    font-weight: 500;
+}
+.medication__text__number{
+    font-size: 16px;
+    text-align: start;
+    font-weight: bold;
+}
+.medication__text__chart__number{
+    color: #2D2D2C;
+}
+.medication__text__right{
+    color: #959595;
+    padding-left: 5px;
+}
+.medication__text__addition{
+    text-align: start;
+    font-weight: bold;
+    margin-bottom: 0rem !important;
+}
+
+
+.medichine__table__div{
+    background: #FFFFFF;
+    padding: 10px;
+}
+/* table start */
+.medichine__table{
+    font-family: arial, sans-serif;
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+    font-size: 12px;
+}
+.medichine__table td{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.medichine__table .tableHead{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #69B128;
+    font-size: 12px;
+}
+.medichine__nested__table{
+    font-family: arial, sans-serif;
+    font-size: 0.875rem;
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+}
+.medichine__nested__table td{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.medichine__nested__table .tableHead{
+    border: 1px solid #dddddd;
+    padding: 2px 3px 2px 3px;
+    text-align: center;
+    color: #FFFFFF;
+    /* font-size: 11px; */
+}
+.medichine__nested__table .cell___data__color{
+    color: #495057;
+}
+/* table end  */
+.medichine__text_p{
+    color: #464645;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0.2rem !important;
+}
+.medication__text__pre{
+    font-size: 13px;
+    font-weight: bold;
+    color: #495057 !important;
+}
+.medication__text__own{
+    font-size: 13px;
+    /* padding-left: 15px; */
+}
+.hr__medichine {
+    margin: 0rem 0;
+    background-color: black !important;
+}
+.add__btn{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #69B128;
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.add__btn:hover{
+    color: #FFFFFF;
+}
+.form__med__checkbox{
+    border: 1px solid black !important;
+}
+.med__text__check{
+    font-weight: bold;
+    margin-bottom: 0rem !important;
+}
+.col__checkbox__form{
+    padding-top: 2px;
+}
+.col__medication__form {
+    padding-top: calc(0.1rem + 1px) !important;
+    padding-bottom: calc(.1rem + 1px) !important;
+    font-size: 13px !important;
+}
+.table__edit__btn{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+.table__save__btn {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+.btn__back, .btn__next {
+    background: #69B128;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 45px;
+    margin-bottom: 7px;
+    font-size: 12px;
+}
+
+
+/* part-2 */
+.radio__check{
+    margin-top: 5px !important;
+}
+.re__border{
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgb(2 2 2 / 1%), 0 6px 10px 0 rgb(0 0 0 / 6%), 0 6px 20px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(2 2 2 / 3%);
+    padding: 5px;
+    height: 275px;
+}
+.re__text__title{
+    font-size: 16px;
+    text-align: start;
+    font-weight: bold;
+    margin-bottom: 4px !important;
+}
+.re__text__sub__title{
+    font-size: 12px;
+    margin-bottom: 0.2rem !important;
+}
+.re__checkbox{
+    margin-top: 5px;
+}
+.re__checkbox__input{
+    margin-top: 5px;
+}
+.re__checkbox__label{
+    margin-bottom: 0.2rem !important;
+}
+.re__checkbox__span{
+    padding-left: 8px;
+    font-size: 12px;
+}
+.reg__checkbox__span{
+    padding-right: 8px;
+    font-size: 12px;
+    color: #E8392E;
+}
+
+.re__table{
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+}
+.re__table td{
+    border: 1px solid #dddddd;
+    padding: 0px 0px 0px 5px;
+    text-align: center;
+}
+.re__table .table__head{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 4px 3px 4px 3px;
+}
+.re__table .table__head__one{
+    border: 1px solid #dddddd;
+    text-align: start;
+    padding: 4px 3px 4px 3px;
+    width: 38%;
+}
+.re__table .table__head__ones{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px 2px 3px 2px;
+    width: 40%;
+}
+.re__table .table__head__two{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px 2px 3px 2px;
+    width: 10%;
+}
+.re__table .table__head__three{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px 2px 3px 2px;
+    width: 10%;
+}
+.re__table .table__head__four{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px 2px 3px 2px;
+    width: 10%;
+}
+.re__table .table__head__five{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px 2px 3px 2px;
+    width: 10%;
+}
+.re__table .table__head__six{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px 2px 3px 2px;
+    width: 10%;
+}
+.re__table .table__re__edit__btn {
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 15px;
+}
+.guideline{
+    margin-bottom: 0.3rem !important;
+}
+.add__btn__guideline{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #69B128;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 15px;
+    padding: 2px 8px 3px 8px
+}
+.add__btn__guideline:hover{
+    color: #FFFFFF;
+}
+.save__btn__guideline{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #69B128;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 15px;
+    padding: 4px 13px 4px 13px;
+    float: right;
+    margin: 13px 14px 3px 0px;
+}
+.save__btn__guideline:hover{
+    color: #FFFFFF;
+}
+.form__hourly__frequency__time{
+    padding: 1.5em 0.375rem !important;
+    font-size: 13px;
+}
+.medication__chart__autocomplete .css-1auycx3-MuiAutocomplete-root .MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input {
+    padding: 2.5px 4px 2.5px 6px;
+    font-size: 12px !important;
+}
+.update__btn__guideline{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #69B128;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 15px;
+    padding: 4px 13px 4px 13px;
+    float: right;
+    margin: 13px 14px 3px 0px;
+}
+.update__btn__guideline:hover{
+    color: #FFFFFF;
+}
+.variable__text_p{
+    color: #E8392E;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-bottom: 5px !important;
+}
+.form__medication__text{
+    font-size: 12px;
+}
+.label__font__size{
+    font-size: 12px;
+}
+.ms__3{
+    padding-right: 4px;
+    margin-top: 4px;
+}
+.vte__risk__p{
+    color: #E8392E;
+    padding-right: 3px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.tick__checkbox{
+    margin-top: 3px;
+}
+.tick__checkbox__text{
+    color: #E8392E;
+    padding-left: 8px;
+    font-size: 12px;
+}
+.discharge__p{
+    margin-bottom: 0.45rem !important;
+    font-size: 12px;
+}
+.discharge__checkbox__span{
+    padding-right: 8px;
+    font-size: 12px;
+}
+.discharge__checkbox{
+    margin-top: 3px;
+}
+.card__body__regular__medicine{
+    padding: 0rem 0.1rem 1rem 0.1rem !important;
+}
+
+
+/* part-4 */
+.administraion__text_p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 4px !important;
+}
+.medication__medicine__table{
+    font-family: arial, sans-serif;
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+    font-size: 12px;
+}
+/* part-4 */
+.medication__medicine__table .medicine__table__head {
+    border: 1px solid #dddddd;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #69B128;
+    font-size: 12px;
+}
+.medication__medicine__table .cell___data__color{
+    color: #495057;
+}
+/* part-2  table */
+
+
+
+.medication__medicine__table .cell__width__p1__1{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p1__2{
+    width: 8%;
+}
+.medication__medicine__table .cell__width__p1__3{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p1__4{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p1__5{
+    width: 4%;
+}
+.medication__medicine__table .cell__width__p1__6{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p1__7{
+    width: 12%;
+}
+.medication__medicine__table .cell__width__p1__8{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p1__9{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p1__10{
+    width: 6%;
+}
+
+.medication__medicine__table .cell__width__p13__1{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p13__2{
+    width: 10%;
+}
+.medication__medicine__table .cell__width__p13__3{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p13__4{
+    width: 9%;
+}
+.medication__medicine__table .cell__width__p13__5{
+    width: 6%;
+}
+
+
+.medication__medicine__table .cell__width__p23__1{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p23__2{
+    width: 8%;
+}
+.medication__medicine__table .cell__width__p23__3{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p23__4{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p23__5{
+    width: 11%;
+}
+.medication__medicine__table .cell__width__p23__6{
+    width: 4%;
+}
+.medication__medicine__table .cell__width__p23__7{
+    width: 4%;
+}
+.medication__medicine__table .cell__width__p23__8{
+    width: 5%;
+}
+.medication__medicine__table .cell__width__p23__9{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p23__10{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p23__11{
+    width: 4%;
+}
+.medication__medicine__table .cell__width__p23__12{
+    width: 7%;
+}
+.medication__medicine__table .cell__width__p23__13{
+    width: 5%;
+}
+.medication__medicine__table .cell__width__p23__14{
+    width: 5%;
+}
+
+
+.medication__medicine__table .cell__width__p22__1{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p22__2{
+    width: 8%;
+}
+.medication__medicine__table .cell__width__p22__3{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p22__4{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p22__5{
+    width: 4%;
+}
+.medication__medicine__table .cell__width__p22__6{
+    width: 4%;
+}
+.medication__medicine__table .cell__width__p22__7{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p22__8{
+    width: 5%;
+}
+.medication__medicine__table .cell__width__p22__9{
+    width: 7%;
+}
+.medication__medicine__table .cell__width__p22__10{
+    width: 7%;
+}
+.medication__medicine__table .cell__width__p22__11{
+    width: 8%;
+}
+.medication__medicine__table .cell__width__p22__12{
+    width: 4%;
+}
+.medication__medicine__table .cell__width__p22__13{
+    width: 7%;
+}
+.medication__medicine__table .cell__width__p22__14{
+    width: 7%;
+}
+.medication__medicine__table .cell__width__p22__15{
+    width: 7%;
+}
+
+
+.medication__medicine__table .cell__width__p2__1{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p2__2{
+    width: 8%;
+}
+.medication__medicine__table .cell__width__p2__3{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p2__4{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p2__5{
+    width: 4%;
+}
+.medication__medicine__table .cell__width__p2__6{
+    width: 4%;
+}
+.medication__medicine__table .cell__width__p2__7{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p2__8{
+    width: 10%;
+}
+.medication__medicine__table .cell__width__p2__9{
+    width: 7%;
+}
+.medication__medicine__table .cell__width__p2__10{
+    width: 7%;
+}
+.medication__medicine__table .cell__width__p2__11{
+    width: 15%;
+}
+.medication__medicine__table .cell__width__p2__12{
+    width: 7%;
+}
+.medication__medicine__table .cell__width__p2__13{
+    width: 3%;
+}
+.medication__medicine__table .cell__width__p2__14{
+    width: 3%;
+}
+.medication__medicine__table .cell__width__p2__15{
+    width: 4%;
+}
+/* part-2 (some) and part-3 table */
+.medication__medicine__table .cell__width__p3__1{
+    width: 5%;
+}
+.medication__medicine__table .cell__width__p3__2{
+    width: 8%;
+}
+.medication__medicine__table .cell__width__p3__3{
+    width: 2%;
+}
+.medication__medicine__table .cell__width__p3__4{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p3__5{
+    width: 17%;
+}
+.medication__medicine__table .cell__width__p3__6{
+    width: 5%;
+}
+.medication__medicine__table .cell__width__p3__7{
+    width: 5%;
+}
+.medication__medicine__table .cell__width__p3__8{
+    width: 12%;
+}
+.medication__medicine__table .cell__width__p3__9{
+    width: 7%;
+}
+.medication__medicine__table .cell__width__p3__10{
+    width: 5%;
+}
+/* part-4 table */
+.medication__medicine__table .cell__width__p4__1{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p4__2{
+    width: 12%;
+}
+.medication__medicine__table .cell__width__p4__3{
+    width: 2%;
+}
+.medication__medicine__table .cell__width__p4__4{
+    width: 1%;
+}
+.medication__medicine__table .cell__width__p4__5{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p4__6{
+    width: 10%;
+}
+.medication__medicine__table .cell__width__p4__7{
+    width: 2%;
+}
+.medication__medicine__table .cell__width__p4__8{
+    width: 3%;
+}
+.medication__medicine__table .cell__width__p4__9{
+    width: 13%;
+}
+.medication__medicine__table .cell__width__p4__10{
+    width: 6%;
+}
+.medication__medicine__table .cell__width__p4__11{
+    width: 9%;
+}
+.medication__medicine__table .cell__width__p4__12{
+    width: 3%;
+}
+.medication__medicine__table .cell__width__p4__13{
+    width: 3%;
+}
+
+
+/* part-5  */
+.medication__medicine__table .table__head__p5__1{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #69B128;
+    font-size: 12px;
+    width: 10%;
+}
+.medication__medicine__table .table__head__p5__2{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #69B128;
+    font-size: 12px;
+    width: 45%;
+}
+.medication__medicine__table .table__head__p5__3{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #69B128;
+    font-size: 12px;
+    width: 45%;
+}
+.medication__medicine__table .table__data{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #383535;
+}
+

@@ -1,0 +1,502 @@
+.top-hr {
+  margin: 0.3rem 0 !important;
+}
+
+.new-rx-container .tab-content {
+  border: none !important;
+  border-top: 0;
+  padding: 0.1rem 0.5rem !important;
+  text-align: justify;
+}
+
+.new-rx-container .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff !important;
+  border-left: none !important;
+  background-color: transparent !important;
+  background: #69b128 !important;
+  font-size: 11px !important;
+}
+
+.new-rx-container .nav-pills .nav-link {
+  border: none;
+  padding: 0.5rem 1rem !important;
+}
+
+.new-rx-container .nav-link {
+  font-size: 11px;
+  color: #495057 !important;
+  background-color: #fff;
+  border-radius: 5px !important;
+  box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.15) !important;
+}
+
+.new-rx-container .nav-pills {
+  border-bottom: none !important;
+  padding-bottom: 1rem;
+}
+
+.new-rx-container .form-check-label {
+  min-height: 14px !important;
+  margin-left: 0.5rem !important;
+  font-size: 0.875rem;
+}
+
+.rx-bg-white {
+  background-color: #fff;
+  color: #363636;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 5px;
+}
+
+.rx-search-container .form-select-sm {
+  border-radius: 2rem !important;
+}
+
+.rx-sort-list {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.rx-fav-btn {
+  background-color: #d1d1d1;
+  font-size: 12px !important;
+  border-radius: 1.5rem !important;
+}
+
+.rx-fav-btn.btn-sm {
+  padding: 0.25rem 1rem !important;
+  font-size: 0.875rem !important;
+  border-radius: 2rem !important;
+}
+
+.rx-first-step-right button {
+  font-weight: 500;
+}
+
+.formulation-header h6 {
+  font-size: 14px;
+}
+
+.formulation-header .form-control-sm {
+  border-radius: 2rem !important;
+}
+
+.formulation-header {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 10px;
+}
+
+.rx-table-first-row td {
+  color: #363636;
+  font-weight: 500;
+}
+
+.rx-table-first-row {
+  border-bottom: 1px solid #c4c4c4 !important;
+}
+
+.formulation-table table {
+  table-layout: fixed;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.formulation-table tr {
+  cursor: pointer;
+}
+
+.formulation-table tr td {
+  font-size: 12px;
+  padding: 3px;
+}
+
+.formulation-table {
+  height: 150px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.rx-table-active td {
+  background-color: #dadada;
+}
+
+.rx-medicine-detail {
+  height: 100px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.rx-medicine-detail-header h6 {
+  font-size: 12px;
+}
+
+.rx-search-container
+  .css-16awh2u-MuiAutocomplete-root
+  .MuiOutlinedInput-root
+  .MuiAutocomplete-input {
+  padding: 0.5px 4px 0.5px 0px !important;
+}
+
+.rx-one-button-group button {
+  background-color: #69b128;
+  color: #fff;
+  padding: 3px 7px;
+  font-size: 13px;
+}
+
+.rx-one-button-group i {
+  font-size: 13px;
+}
+
+.rx-one-button-group .form-check-label {
+  min-height: 14px !important;
+  margin-left: 0.5rem !important;
+  font-size: 0.775rem;
+  margin-top: 3px;
+}
+
+.rx-about-medicine {
+  height: 110px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.rx-about-medicine h6 {
+  font-size: 15px;
+}
+
+.rx-about-medicine hr {
+  margin: 0.3rem 0 !important;
+}
+
+.rx-about-medicine p {
+  margin-bottom: 0.4rem !important;
+  font-weight: 400;
+}
+
+.dose-detail p {
+  font-weight: 500;
+  margin-bottom: 0.2rem !important;
+}
+
+.dose-detail .dose-name {
+  font-weight: 400;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  width: 150px;
+  padding-left: 5px;
+  color: #363636;
+}
+
+.rx-fav-dose {
+  margin-top: -20px;
+}
+
+.instruction h6 {
+  font-size: 13px;
+}
+
+.instruction hr {
+  margin: 0.3rem 0 !important;
+}
+
+.rx-s2-radio-group .form-check-label {
+  margin-left: 0.5rem !important;
+  font-size: 0.75rem;
+}
+
+.rx-label {
+  font-weight: 500;
+}
+
+.rx-s4-reson {
+  min-height: 175px;
+}
+
+.rx-s4-reson h6 {
+  font-size: 13px;
+  color: #737373;
+}
+
+/* .rx-s4-reson .css-16awh2u-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+    padding: 0.5px 4px 0.5px 0px !important;
+} */
+.Vrx-further-detail h6 {
+  font-size: 13px;
+}
+
+.rx-s3-checkgroup {
+  margin-top: -10px;
+}
+
+.rx-s3-checkgroup .form-check {
+  display: block;
+  min-height: 1rem !important;
+  padding-left: 1.5em;
+  margin-bottom: 0.125rem;
+}
+
+.rx-regulation {
+  margin-top: 30px;
+}
+
+/* .MimsData {
+    height:450px;
+    overflow: hidden;
+    overflow-y: scroll;
+} */
+
+.mimsDataTable {
+  width: 100%;
+}
+
+.mimsDataTable tr td {
+  border: 1px solid #85b5d9;
+  padding: 7px;
+}
+
+.MTableHeader-header-15 {
+  z-index: 0 !important;
+}
+
+.alertDesc {
+  text-align: left;
+  height: 198px;
+  overflow-y: auto;
+}
+
+.alertDesc ul li {
+  line-height: 0.5 !important;
+}
+
+.references ul li {
+  line-height: 1.3 !important;
+}
+
+.mims-list {
+  border: 1px solid #cac7d3;
+  border-radius: 3px;
+  height: 83vh;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.mims-list ul {
+  padding-left: 0.1rem;
+  list-style-type: none;
+  margin-bottom: 0.1rem;
+}
+
+.mims-list ul li {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.mims-list ul li:hover {
+  background-color: #e7e4e4;
+}
+
+.fvdInput {
+  margin-top: 12px;
+  margin-left: -10px;
+}
+
+.SeverityFlug {
+  border: 1px solid #5f5f5f;
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.new-rx-modal {
+  top: 37%;
+  left: 21%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 490px;
+  padding: 10px;
+  margin-left: 38%;
+  border: 1px solid red;
+}
+
+.Modal {
+  position: absolute;
+  top: 37%;
+  left: 21%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 490px;
+  padding: 10px;
+  margin-left: 38%;
+  background-color: #fff;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rebeccapurple;
+}
+
+.MenuModal {
+  position: absolute;
+  top: "46%";
+  left: "27%";
+  right: "auto";
+  bottom: "auto";
+  margin-right: "-50%";
+  transform: "translate(-50%; -50%)";
+  width: "50%";
+  height: "240px";
+  padding: "5px";
+  overflow: "hidden";
+  overflow-y: "scroll";
+  background-color: #fff;
+}
+
+.PatientEducationModal {
+  position: absolute;
+  top: 45%;
+  left: 33%;
+  height: 70vh;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  overflow-x: hidden;
+  background-color: #fff;
+}
+.gd-btn,
+.gd-btn,
+.gd-btn {
+  border: 0.5px solid #e2e2e2;
+  background-color: #ededed;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.gd-btn:hover,
+.gd-btn:hover,
+.gd-btn:focus,
+.gd-btn:focus,
+.gd-btn:hover {
+  background-color: #69b128;
+  color: #fff;
+}
+.printDisabledbtn,
+.printDisabledbtn,
+.printDisabledbtn {
+  background-color: #f4f4f4;
+  color: #d8d8d8;
+  cursor: not-allowed;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border: 0.5px solid #e2e2e2;
+  border-radius: 5px;
+}
+.gd-btn,
+.printDisabledbtn {
+  padding: 5px 10px;
+}
+.gd-btn img,
+.printDisabledbtn img,
+.gd-btn img,
+.printDisabledbtn img {
+  width: 18px !important;
+  height: 18px !important;
+  margin-right: 6px;
+}
+.printDisabledbtn img,
+.printDisabledbtn img {
+  filter: grayscale(100%);
+}
+
+@media screen and (max-width: 768px) {
+  .dose-detail .dose-name {
+    font-weight: 400;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    width: 125px;
+    padding-left: 0px;
+    color: #363636;
+  }
+
+  .new-rx-container .tab-content {
+    text-align: left !important;
+  }
+
+  .formulation-header h6 {
+    font-size: 12px;
+  }
+
+  .formulation-table tr td {
+    font-size: 11px;
+  }
+
+  .margin-zero {
+    margin: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .rx-s2-radio-group .form-check-label {
+    font-size: 11px;
+  }
+
+  .rx-about-medicine {
+    height: 90px;
+  }
+
+  .rx-about-medicine h6 {
+    font-size: 12px;
+  }
+
+  .rx-about-medicine hr {
+    margin: 0.1rem 0 !important;
+  }
+
+  .rx-one-button-group button {
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+  .rx-one-button-group .form-check-label {
+    margin-left: 0.3rem !important;
+    font-size: 11px;
+    margin-top: 3px;
+  }
+
+  .form-check {
+    margin-bottom: 0px !important;
+  }
+
+  .formulation-header {
+    margin-bottom: 5px;
+  }
+
+  .formulation-table {
+    height: 124px;
+  }
+
+  .buttonStyle {
+    padding: 2px 18px;
+    margin-bottom: 3px;
+  }
+}

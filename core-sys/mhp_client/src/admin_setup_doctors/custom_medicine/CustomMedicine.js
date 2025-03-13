@@ -1,0 +1,192 @@
+import axios from "axios";
+import MaterialTable from "material-table";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
+import CustomMedicineSetupSidebar from "../../admin_setup_doctors/custom_medicine_sidebar/CustomMedicineSetupSidebar";
+
+function CustomMedicine() {
+  const [allCustomMedicines, setAllCustomMedicines] = useState([]);
+
+  useEffect(() => {
+    axios.get(`/custom-medicine`).then((res) => {
+      if (res.data.status === 200) {
+        setAllCustomMedicines(res.data.all_custom_medicine);
+      }
+    });
+  }, []);
+
+  const deleterestriction = (e, id) => {
+    e.preventDefault();
+    const thisClicked = e.currentTarget;
+    //  thisClicked.innerText = "Deleting";
+
+    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        axios.delete(`/delete-custom-medicine/${id}`).then((res) => {
+          if (res.data.status === 200) {
+            thisClicked.closest("tr").remove();
+            //   swal("Success", res.data.message, "success");
+          }
+        });
+        Swal.fire("Deleted!", "Your data has been deleted.", "success");
+      }
+    });
+  };
+
+  const columns = [
+    {
+      title: "SL",
+      field: "",
+      render: (row) => <div>{row.tableData.id + 1}</div>,
+
+      width: "40 !important",
+    },
+    {
+      title: "Name",
+      render: (row) => <div>{row.custom_medicine_name}</div>,
+      cellStyle: {
+        marginLeft: 50,
+        width: 600,
+      },
+    },
+    {
+      title: "Ingredient",
+      render: (row) => <div>{row.ingredient_name}</div>,
+      cellStyle: {
+        marginLeft: 50,
+        width: 600,
+      },
+    },
+
+    // {
+    //   title: "Ingredient-strength",
+    //   render: (row) => <div>{row.ingredient_strength}</div>,
+    //   cellStyle: {
+    //     marginLeft: 50,
+    //     width: 600,
+    //   },
+    // },
+    // {
+    //   title: "Ingredient-Unit",
+    //   render: (row) => <div>{row.ingredient_unit}</div>,
+    //   cellStyle: {
+    //     marginLeft: 50,
+    //     width: 600,
+    //   },
+    // },
+
+    {
+      title: "strength",
+      field: `ingredient_strength`,
+
+      cellStyle: {
+        marginLeft: 50,
+        width: 600,
+      },
+    },
+    {
+      title: "unit",
+      field: `ingredient_unit`,
+
+      cellStyle: {
+        marginLeft: 50,
+        width: 600,
+      },
+    },
+    {
+      title: "Medicine-Category",
+      render: (row) => (
+        <div style={{ width: "130px" }}>{row.medicinecategory_name}</div>
+      ),
+      cellStyle: {
+        marginLeft: 50,
+        width: 600,
+      },
+    },
+
+    {
+      title: "Restriction",
+      render: (row) => <div>{row.restriction_name}</div>,
+      cellStyle: {
+        marginLeft: 50,
+        width: 600,
+      },
+    },
+    {
+      title: "Action",
+      field: "patient",
+      render: (row) => (
+        <div>
+          <Link
+            to={`/edit-custom-medicine/${row.id}`}
+            class="btn btn-info btn-sm action-btn"
+          >
+            <i class="fas fa-edit"></i>
+          </Link>
+          &nbsp;
+          <button
+            onClick={(e) => deleterestriction(e, row.id)}
+            className="btn btn-danger btn-sm action-btn"
+          >
+            {" "}
+            <i class="fas fa-trash"></i>{" "}
+          </button>
+        </div>
+      ),
+    },
+  ];
+  return (
+    <>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3">
+            <CustomMedicineSetupSidebar />
+          </div>
+          <div className="col-md-9 mt-2">
+            <div className="card">
+              <div className="card-header">
+                <h6 className="card-title">
+                  Custom Medicine
+                  <Link
+                    to={"/add-custom-medicine"}
+                    className="btn btn-primary btn-sm float-end"
+                  >
+                    {" "}
+                    Add{" "}
+                  </Link>
+                </h6>
+              </div>
+              <div className="card-body">
+                <MaterialTable
+                  columns={columns}
+                  data={allCustomMedicines}
+                  options={{
+                    search: true,
+                    // filtering: filter,
+                    showTitle: false,
+                    searchFieldAlignment: "left",
+                    pageSize: 5,
+                    overflowX: "auto",
+                    emptyRowsWhenPaging: false,
+                    pageSizeOptions: [5, 10, 20, 50, 100],
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default CustomMedicine;

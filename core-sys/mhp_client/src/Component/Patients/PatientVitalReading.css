@@ -1,0 +1,33 @@
+#filtersubmit {
+    position: relative;
+    z-index: 1;
+    top: 23px;
+    margin-left: 10px;
+    color: #7B7B7B;
+    cursor: pointer;
+    width: 0;
+}
+
+
+.tablenur {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tablenur td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.tablenur th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tablenur .lol {
+    background-color: #69B128;
+    color: white;
+    font-weight: bold;
+}

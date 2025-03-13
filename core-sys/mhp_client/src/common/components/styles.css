@@ -1,0 +1,55 @@
+.modal-sm {
+  max-width: 500px !important;
+  width: 100%;
+}
+
+.modal-md {
+  max-width: 800px !important;
+  width: 100%;
+}
+
+.modal-lg {
+  max-width: 1200px !important;
+  width: 100%;
+}
+
+.modal-xl {
+  max-width: calc(100vw - 120px) !important;
+  width: 100%;
+}
+
+.modal-full {
+  max-width: calc(100vw - 60px) !important;
+  width: 100%;
+}
+
+.react-responsive-modal-container .modal-body {
+  padding: 20px 15px;
+  max-height: calc(100vh - 220px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.react-responsive-modal-container .modal-body-full {
+  max-height: calc(100vh - 200px) !important;
+}
+
+.print-report-header {
+  display: none;
+}
+
+@media print {
+  .print-report-header {
+    display: block;
+  }
+}
+
+.drug-since-input .input-group-sm>.form-control:not(textarea) {
+  height: 1.5rem !important;
+}
+
+.drug-since .setup-card {
+  padding: 7px;
+  padding-right: 3px;
+}

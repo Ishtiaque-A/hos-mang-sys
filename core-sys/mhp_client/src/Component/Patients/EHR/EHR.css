@@ -1,0 +1,281 @@
+.ehr-left-sidebar {
+    background-color: #fff;
+}
+
+.ehr-paitent-section img {
+    height: 70px;
+}
+
+.ehr-paitent-section span {
+    color: #869099;
+}
+
+.ehr-history-section span {
+    color: #737373;
+}
+
+.ehr-history-section p {
+    color: #363636;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    font-size: 12px;
+}
+.ehr-history-tab-section {
+    background-color:#F2F2F2;
+    ;
+}
+.ehr-history-tab-section ul {
+    list-style-type: none;
+    padding-left: 0rem !important;
+}
+
+.ehr-history-tab-section ul li {
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.ehr-history-tab-section ul li.active {
+    background-color: #69B128;
+    color: #fff;
+}
+
+.ehr-search {
+    padding: 5px 15px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.18);
+}
+
+.ehr-search .form-control-sm {
+    border-radius: 1rem;
+}
+
+.ehr-indicator {
+    background-color: #fff;
+
+}
+
+.ehr-indicator ul {
+    list-style-type: none;
+    padding-left: 0rem !important;
+}
+
+.ehr-indicator ul li {
+    display: inline;
+    padding: 10px 15px;
+}
+
+.ehr-table td {
+    padding: 5px 20px;
+}
+
+.ehr-table-head td {
+    color: #737373;
+}
+
+.ehr-timeline .css-55vwbm-MuiTimeline-root {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 1px;
+    flex-grow: 1;
+}
+
+.ehr-timeline .css-bx4z5e-MuiTypography-root-MuiTimelineContent-root {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 6px 11px;
+    text-align: right;
+}
+.ehr-timeline .css-gr167i {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 6px 11px;
+    text-align: right;
+}
+
+.ehr-timeline .css-v6mo1y-MuiTimelineDot-root {
+    border-width: 2px;
+    padding: 2px;
+    margin: 11.5px 0;
+}
+
+.ehr-timeline .css-nnw8om-MuiTimelineItem-root {
+    min-height: 55px;
+}
+
+.ehr-anatomy .zoom-button {
+    background-color: transparent;
+    border: none;
+}
+
+.ehr-anatomy ul {
+    padding-left: 0rem;
+    list-style-type: none;
+}
+
+.popover-body {
+    padding: 0.3rem 0.3rem !important;
+}
+
+.ehr-anatomy ul li {
+    color: #737373;
+    cursor: pointer;
+}
+
+.ehr-anatomy-popup {
+    width: 160px;
+
+}
+
+.ehr-anatomy-header p {
+    margin-bottom: 0.1rem;
+}
+
+.ehr-anatomy-popup-detail p {
+    margin-bottom: 0.3rem;
+}
+
+.ehr-anatomy-popup button {
+    background-color: #8CBB98;
+    color: #fff;
+    padding: 0.175rem 0.75rem;
+}
+
+.ReactModal__Overlay--after-open {
+    background-color: transparent !important;
+}
+
+.ehr-popup-doc-section img {
+    height: 25px;
+}
+
+.ehr-popup-doc-section .ehr-doc-name {
+    font-weight: 500;
+}
+
+.ehr-popup-details p {
+    margin-bottom: 0.2rem;
+}
+
+.ehr-popup-details span {
+    display: block;
+}
+
+.ehr-details-heading {
+    font-weight: 500;
+}
+
+.ehr-test-document a {
+    text-decoration: none;
+    color: #363636;
+    border: 1px solid #BCBCBC;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ehr-history .nav-pills .nav-item {
+    margin-right: 0rem;
+}
+
+.ehr-history .tab-content {
+    border: none;
+    border-top: 0;
+    padding: 0.2rem 0.1rem;
+    text-align: justify;
+}
+
+.ehr-history .nav-pills {
+    border-bottom: none;
+    padding-bottom: 0.1rem;
+}
+
+.ehr-history .nav-pills .nav-link {
+    border: none;
+    background-color: #EFEFEF;
+    color: #737373 !important;
+    padding: 0.5rem 1.10rem;
+    border-radius: 3px;
+}
+
+.ehr-history .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #363636 !important;
+    border-bottom: 2px solid #69B128 !important;
+    border-left: none !important;
+    background-color: transparent !important;
+    background: #F4F6F9;
+    font-size: 15px !important;
+}
+
+.ehr-vital-sign p {
+    margin-bottom: 0.1rem;
+}
+
+.ehr-sign-value {
+    font-size: 20px;
+}
+
+.ehr-sign-title {
+    color: #737373;
+}
+
+.ehr-documents-card-text {
+    color: #363636;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+
+.ehr-documents-card-doc img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.ehr-documents-card-doc span {
+    font-size: 10px;
+    display: inline-block !important;
+}
+
+.ehr-all-doucments-card {
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.ehr-anatomy-symptoms .form-control-sm {
+    border-radius: 2rem;
+}
+.ehr-table .form-select-sm {
+    border-radius: 2rem;
+}
+.ehr-table option:hover {
+    background: yellow;
+    /* selected */
+  }
+.active-year {
+    color: #363636;
+    font-weight: 500 !important;
+}
+.active-time-line .css-v6mo1y-MuiTimelineDot-root {
+    border-width: 2px;
+    padding: 2px;
+    margin: 11.5px 0;
+    background-color: #363636;
+}
+.active-time-line .css-1nqcc1s {
+    border-width: 2px;
+    padding: 2px;
+    margin: 11.5px 0;
+    background-color: #363636;
+}
+.active-line-connector.css-1ami7lv-MuiTimelineConnector-root {
+    width: 2px;
+    background-color: #363636;
+}
+.active-line-connector.css-idv8vo {
+    width: 2px;
+    background-color: #363636;
+}

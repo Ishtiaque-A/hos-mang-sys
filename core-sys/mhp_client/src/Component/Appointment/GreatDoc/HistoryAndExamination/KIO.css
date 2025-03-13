@@ -1,0 +1,21 @@
+.popup-hr {
+    margin: 0.5rem 0 !important;
+}
+
+.direction {
+    margin-bottom: 0.4rem !important;
+}
+
+.kio li {
+    line-height: 1.5 !important;
+}
+
+.kio_note {
+    border-top: 1px solid #b8b4b4;
+    width: 98%;
+}
+
+.kio_note p {
+    margin-top: 3px;
+    font-weight: 500;
+}

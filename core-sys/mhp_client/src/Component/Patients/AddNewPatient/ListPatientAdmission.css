@@ -1,0 +1,46 @@
+.material-table {
+  border-left: none !important;
+  border-right: none !important;
+}
+
+
+.print-only {
+  display: none;
+  /* Hide the table on screen */
+}
+
+@media print {
+  .print-only {
+    display: block;
+    /* Show the table during printing */
+  }
+
+}
+
+.print-report-header {
+  margin-bottom: 20px;
+}
+
+.print-report-header .d-flex {
+  align-items: center;
+}
+
+.print-report-header img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.print-report-header h6 {
+  font-size: 20px;
+  margin: 0;
+  color: #050505;
+}
+
+.print-report-header p {
+  font-size: 14px;
+  margin: 5px 0 0;
+  color: #050505;
+}
+
+

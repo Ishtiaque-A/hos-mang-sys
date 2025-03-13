@@ -1,0 +1,244 @@
+.ipd-container .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #363636 !important;
+    border-left: none !important;
+    background-color: #fff !important;
+    font-size: 13px !important;
+    border-bottom: 2px solid #69B128 !important;
+    ;
+    font-weight: 500;
+}
+
+.ipd-container .nav-pills .nav-link {
+    font-size: 13px !important;
+    padding: 0.2rem 1.75rem;
+    font-weight: 500;
+}
+
+.ipd-container .nav-pills {
+    border-bottom: none !important;
+    padding-bottom: 0.1rem !important;
+}
+
+.ipd-container .nav-pills .nav-item {
+    margin-right: 0.1rem !important;
+}
+
+.idm-add-btn {
+    font-size: 14px !important;
+    background: #69B128 !important;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.3rem 0.75rem !important;
+    border-radius: 5px !important;
+}
+
+.idm-add-btn:hover {
+    color: #fff;
+}
+
+.idm-add-btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.form-select {
+    font-size: .87rem !important;
+}
+.ipd-btn {
+    background: #69B128;
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #69B128;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.ipd-btn-cancel {
+    background: #fff;
+    color: #69B128;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: 1px solid #69B128;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.vital-table-div{
+    background: #FFFFFF;
+    padding: 10px;
+}
+.vital-table{
+    font-family: arial, sans-serif;
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+    font-size: 12px;
+}
+.vital-table td{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.vital-table .table-head{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #69B128;
+    font-size: 12px;
+}
+.vital-table .data-color{
+    color: #495057;
+}
+.parameters-autocomplete .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+    padding: 0px !important;
+    font-size: 12px !important;
+}
+.parameters-autocomplete .css-1auycx3-MuiAutocomplete-root .MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input {
+    padding: 0px 4px 0px 6px !important;
+    font-size: 12px !important;
+}
+.payment {
+    min-height: 100%;
+    background: #FFFFFF;
+}
+.col__checkbox__form .form-check {
+    margin-top: 0px !important;
+}
+.col__checkbox__form .form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: 0rem !important;
+}
+.col__checkbox__form{
+    padding-top: 2px;
+}
+
+/* room booking start  */
+.rb-search {
+    min-height: calc(1.5em + 0.5rem + 2px);
+    padding: 0.25rem 0rem !important;
+}
+.rb-search .MuiOutlinedInput-adornedStart {
+    padding-left: 8px !important;
+    padding-bottom: 1px !important;
+}
+.rb-search .MuiIconButton-root {
+    padding: 0px !important;
+    font-size: 12px !important;
+}
+.rb-search .MuiOutlinedInput-input {
+    padding: 4px 8px !important;
+}
+.rb-search .MuiSvgIcon-root {
+    font-size: 1.3rem !important;
+}
+/* room booking end */
+
+/* room card start */
+
+.allroom-tab img{
+    width: 16px;
+    height: 16px;
+}
+
+.allroom {
+    min-height: 100%;
+}
+
+.allroom .card {
+    min-height: 230px !important;
+    max-height: 100px !important;
+    overflow: hidden;
+    text-align: start;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 5%);
+    border-radius: 9px;
+    z-index: 1;
+}
+.allroom .card .card-body {
+    padding: 1.25rem 1.25rem 1rem 1.25rem !important;
+}
+.allroom .card-text {
+    color: #495057 !important;
+    font-size: 15px !important;
+
+}
+
+.card-discription {
+    color: #737373;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    font-size: 15px;
+    line-height: 145%;
+    min-height: 80px !important;
+    max-height: 130px !important;
+    overflow: hidden;
+}
+.allroom-pagination .link-no{
+    border: 0px solid #dee2e6 !important;
+}
+/* room card end */
+
+
+.room-detail-bg {
+    background:#EDEDED;
+}
+.deluxe-bg{
+    background: #fff;
+    padding: 5px;
+}
+.deluxe-header{
+    font-size: 14px;
+    color: #495057;
+}
+.deluxe-title{
+    font-weight: 500;
+    color: #495057;
+}
+.deluxe-text{
+    margin-bottom: 2px !important;
+    font-size: 14px;
+    color: #495057;
+}
+.features-list ul {
+    margin-bottom: 4px !important;
+}
+.features-list ul li{
+    font-size: 13px !important;
+}
+.list-img{
+    font-size: 14px;
+}
+.ipd-room-btn {
+    background: #69B128;
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #69B128;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.close_btn {
+    background: #c9cecb;
+    padding: 10px 13px;
+    border-radius: 50%;
+}
+
+.close_btn:hover {
+    background: #c9edde;
+}
+.deluxe-modal .modal-header {
+    padding: 2px !important;
+}

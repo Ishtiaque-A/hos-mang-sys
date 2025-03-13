@@ -1,0 +1,13 @@
+
+.button-size{
+    height: 38px;
+    width: 130px;
+    text-align: center;
+    padding:2px;
+}
+.text-remove{
+    line-height: 2px;
+}
+.modal-text{
+    line-height: 2px;
+}

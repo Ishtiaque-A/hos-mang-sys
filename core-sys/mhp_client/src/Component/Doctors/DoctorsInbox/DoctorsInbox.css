@@ -1,0 +1,341 @@
+.doc-inbox-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.doc-inbox-img p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.doc-inbox-patient-info-btn button {
+    background-color: transparent;
+    border: none;
+}
+
+.doc-inbox-patient-info-btn {
+    background-color: #ffff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.doc-inbox-patient-info-btn button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.doc-inbox-patient-info-btn .active {
+    background-color: #69B128;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 25px;
+    color: #fff;
+    border-radius: 16px;
+}
+
+.doc-inbox-patient-top-search {
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cac7d3;
+}
+
+.doc-inbox-patient-top-search h6 {
+    font-size: 14px;
+}
+
+.doc-inbox-patient-top-search .form-control-sm {
+    border-radius: 1rem;
+}
+
+.doc-inbox-patient-top-search button {
+    background-color: #69B128;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 25px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.doc-inbox-button-group button {
+    background-color: #EDEDED;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 27px;
+    color: #363636;
+    border-radius: 6px;
+}
+
+.doc-inbox-button-group {
+    background-color: #ffff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 27px;
+    color: #363636;
+    border-radius: 6px;
+}
+
+.doc-inbox-save-btn {
+    background-color: #69B128;
+    border: 1px solid #69B128;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 25px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.doc-inbox-cancel-btn {
+    background-color: #fff;
+    border: 1px solid #69B128;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 25px;
+    color: #69B128;
+    border-radius: 6px;
+}
+
+.doc-inbox-left-content {
+    border-radius: 5px;
+    /* border:1px solid #cac7d3; */
+}
+
+.doc-inbox-left-content .css-1g86id8-MuiTreeItem-content .MuiTreeItem-label {
+    width: 100%;
+    min-width: 0;
+    padding-left: 4px;
+    position: relative;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.doc-inbox-left-content .form-control-sm {
+    border-radius: 1rem;
+}
+
+.doc-inbox-right-content .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+}
+
+.doc-inbox-right-content .accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-size: 0.6rem;
+    transition: transform .2s ease-in-out;
+    margin-top: 5px;
+}
+
+.doc-inbox-right-content .accordion-button:not(.collapsed)::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-size: 0.6rem;
+    transition: transform .2s ease-in-out;
+    margin-top: -5px;
+}
+
+.doc-inbox-right-content .accordion-button:not(.collapsed) {
+    color: #000 !important;
+    font-size: 13px !important;
+    font-weight: 500;
+}
+
+.doc-inbox-right-content .accordion-button.collapsed {
+    color: #000 !important;
+    font-size: 13px !important;
+    font-weight: 500;
+}
+
+.doc-inbox-right-content .accordion-header.small-accordion-btn .accordion-button.collapsed {
+    font-size: 10px !important;
+    padding: 0.2rem !important;
+}
+
+.doc-inbox-right-content .accordion-body {
+    padding: 0.3rem !important;
+}
+
+.doc-inbox-right-content .accordion-item {
+    background-color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    border-bottom: 1px solid #cac7d3;
+}
+
+.doc-inbox-right-content .form-check .form-check-label {
+    min-height: 18px;
+    display: block;
+    margin-left: 0.35rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.accordion-value {
+    text-align: center;
+}
+
+.accordion-value span {
+    font-size: 13px !important;
+    font-weight: 500;
+    color: #aaaaaa
+}
+
+.doc-inbox-right-content .form-select-sm {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    font-size: 0.675rem;
+    border-radius: 0.2rem;
+}
+
+.doc-inbox-right-content .form-select {
+    font-size: 0.675rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #EDEDED;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 12px 8px;
+}
+
+.detils-btn-doc-inbox {
+    font-size: 13px;
+    color: #BAB9B9;
+    background-color: #EDEDED;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+/* .doc-inbox-right-content input[type='radio']:after {
+    width: 14px;
+    height: 14px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #69B128;
+}
+.doc-inbox-right-content input[type='radio']:checked:after {
+    width: 18px;
+    height: 18px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 6px solid #69B128;
+} */
+.doc-inbox-right-content {
+    /* border:1px solid #cac7d3; */
+    background-color: #fff;
+    padding: 2px;
+}
+
+.doc-inbox-viewer .tab-content {
+    border: none !important;
+    padding: 0.2rem 0.1rem !important;
+    text-align: justify;
+
+}
+
+.doc-inbox-viewer .nav-pills {
+    border-bottom: none !important;
+    padding-bottom: 0.1rem !important;
+    background-color: #fff;
+}
+
+.doc-inbox-viewer .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff !important;
+    border-left: none !important;
+    background-color: transparent !important;
+    background: #69B128 !important;
+    font-size: 15px !important;
+    border-radius: 5px !important;
+}
+
+.doc-inbox-viewer .nav-pills .nav-link {
+    padding: 4px 30px !important;
+    background: #EDEDED;
+    border-radius: 5px !important;
+}
+
+.doc-inbox-viewer .rpv-default-layout__sidebar-headers {
+    background-color: #fff !important;
+    padding: 0.25rem;
+}
+
+.doc-inbox-viewer .rpv-default-layout__toolbar {
+    background-color: #ffff !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.doc-inbox-bottom-button-group {
+    border: 1px solid #cac7d3;
+}
+
+.doc-inbox-bottom-button-group button {
+    border: none;
+    background-color: #EDEDED;
+    font-size: 12px;
+    width: 100%;
+    color: #363636;
+    padding: 3px 0px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.zoom-button {
+    padding: 3px 15px;
+}
+
+iframe,
+object,
+embed {
+    max-width: 100%;
+}
+
+.doc-inbox-content {
+    height: 573px;
+    overflow: hidden;
+}
+
+/* .doc-inbox-content img{
+    height: 540px;
+} */
+.great-lab-print-report-view {
+    min-height: 570px;
+}

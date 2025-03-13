@@ -1,0 +1,43 @@
+ 
+###
+### Get single admit
+GET http://127.0.0.1:7000/api/get-admit/5
+Accept: application/json
+Authorization: Bearer 2310|I3KUG4nUqGx173RdJqOtNzHZLMoZBZAF9RFOrtmJ
+
+###
+POST https://back.cardx.me/api/userEntry 
+Content-Type: application/json
+{
+    "email": "test.com",
+    "uid": "test1uid",
+    "photoURL": "https://example.com/photo.jpg",
+    "displayName": "John Doe"
+}
+ 
+###
+GET https://back.cardx.me/api/cards
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksImlhdCI6MTczNDUwMDE4NCwiZXhwIjozNjAwMDE3MzQ1MDAxODR9.u6_EkPQVEVHKPYjr9D0Y11LAfkuX2YsnfDbmYmUbhhY
+
+###
+PUT http://127.0.0.1:7000/api/update-admit/11
+Accept: application/json
+Authorization: Bearer 2310|I3KUG4nUqGx173RdJqOtNzHZLMoZBZAF9RFOrtmJ
+Content-Type: application/json
+
+{
+    "patient_id": 1,
+    "specialist_id": 1,
+    "department_id": 3,
+    "doctor_id": 1,
+    "block": "A",
+    "level": "3",
+    "unit": "5",
+    "admission_date": "2024-12-18",
+    "ward": "General",
+    "bed": "12",
+    "cabin": "101",
+    "note": "Patient is stable but requires further observation.",
+    "reason_for_admission": "Severe headache and nausea"
+}

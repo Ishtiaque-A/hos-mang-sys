@@ -1,0 +1,80 @@
+.go2441762052 {
+    display: none;
+}
+.symptom-one-container img {
+    width: 200px;
+}
+.step-two-container p {
+    font-size: 15px;
+    
+}
+.step-two-container ul li{
+    font-size: 15px;
+    
+}
+.step-two-container .form-check-input {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.45em;
+}
+.step-two-container .form-check .form-check-label {
+    min-height: 18px;
+    display: block;
+    margin-left: 1.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.anatomy-bg {
+    fill:#ffff;
+    stroke: #2B82D3;
+    stroke-width: 0.5px;
+}
+.active-anatomy {
+    fill:#d0d2d4;
+}
+.anatomy-bg:hover{
+    fill:#d0d2d4;
+}
+.rotate-btn {
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+}
+.symptoms {
+    min-height: 250px;
+    border-radius: 15px;
+}
+.symptoms .symptom {
+    padding:5px 12px;
+    background-color: #1576d1;
+    color:#fff;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.symptoms i {
+    font-size: 18px;
+    color:#fff;
+    margin-right: -8px;
+    margin-top:3px;
+}
+.symptom-popup {
+    height: 180px;
+    width: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.symptom-popup ul {
+    padding-left: 0.2rem !important;
+    list-style-type: none;
+}
+.symptom-popup ul li {
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.symptom-popup ul li:hover {
+    background-color: #F3F5F7;
+}
+   

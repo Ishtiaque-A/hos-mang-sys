@@ -1,0 +1,12 @@
+Greatdoc -> Prescription -> EScript for Bangla font
+ 1. Find the Nikosh.ttf file in our root dir.
+ 2. Go to the path mhp_web\mhp_server\vendor\mpdf\mpdf\ttfonts\
+ 3. And add this file Nikosh.ttf
+ 4. Then go to this file mhp_web\mhp_server\vendor\mpdf\mpdf\src\Config\FontVariables.php
+ 5. In the file find the fontdata text inside array add below code.
+ "nikosh" => [
+					'R' => "Nikosh.ttf",
+					'useOTL' => 0xFF,
+				],
+ 
+

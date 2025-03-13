@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ReactModal__Content {
+  height: 300px;
+  margin-top: 107px;
+
+  width: 50%;
+  margin-left: 30%;
+
+  box-shadow: 2px 6px 8px rgb(155, 155, 155);
+}
+
+.react_model {
+  text-align: center;
+}
+
+.model_hading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.model_hading h4 {
+  color: rgb(43, 43, 43);
+  margin-bottom: 5px;
+}
+
+i.fas.fa-times {
+  font-size: 14px;
+  margin-top: -3px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+i.fas.fa-times:hover {
+  border-radius: 50%;
+  background: rgb(230, 230, 230);
+  color: red;
+}
+
+.model_sub_heading select#patient {
+  width: auto;
+  height: 25px;
+  border: none;
+  padding: 2px;
+  color: rgb(43, 43, 43);
+  font-size: medium;
+  border-bottom: 1px solid rgb(43, 43, 43);
+}
+
+.Line {
+  border-bottom: 1px solid rgb(43, 43, 43);
+  margin-bottom: 20px;
+}
+
+.Label1 {
+  margin-right: 10px;
+  font-size: medium;
+}
+
+.model_sub_heading input#output,
+.model_sub_heading .inputDateSearch {
+  width: auto;
+  height: 23px;
+  border: none;
+  padding: 5px;
+  color: rgb(43, 43, 43);
+  font-size: medium;
+  border-bottom: 1px solid rgb(43, 43, 43);
+  margin-left: 12px;
+}
+
+.customButton1 {
+  background: none;
+  border: 1px solid gray;
+  font-size: medium;
+  text-transform: capitalize;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.customButton1:hover {
+  background: rgb(160, 160, 160);
+  box-shadow: 1px 1.5px 2px gray;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.pTable {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 15px;
+  color: black;
+  font-size: 11px;
+}
+
+.pTable .tr1 {
+  background-color: white;
+  padding: 0.35em;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.tableFooter {
+  text-align: end;
+}
+
+.pTable .th1,
+.pTable .td1 {
+  padding: 0.625em;
+  text-align: center;
+}
+
+.pTable .th1 {
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+button.customButton1.Add {
+  margin-top: 10px;
+}
+
+h4.errorH4 {
+  color: red;
+  margin: 20px;
+}

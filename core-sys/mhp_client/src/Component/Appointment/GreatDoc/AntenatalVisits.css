@@ -1,0 +1,80 @@
+.antenatal_container{
+    border-radius: 5px;
+}
+.antenatal_date, .next_date{
+    width: 23%;
+    padding: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.blood_pressure_box, .urine_box{
+    margin-top: 8px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.blood_pressure_box strong, .immunisation strong, .antenatal_immunisation_box strong, .note_box h6{
+    font-size: 12px;
+}
+.blood_pressure_box hr, .urine_box hr{
+    margin-top: -1px;
+}
+.blood_pressure_systolic, .protine, .glucose, .ketone, .others{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+.blood_pressure_diastolic{
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25); 
+}
+.weight_box,.height_box,.bmi_box, .Pre_Pregnancy_box, .bmi_Target_box, .gestation_box, .fundal_height_box, .fundal_size_box, .fundal_clinical_box, .foetal_movement_box, .presentation_box, .position_box, .engagement_box, .foetal_heart_sound_box{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+.antenatal_immunisation_box{
+    width: 85%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.antenatal_immunisation_box hr{
+    margin-top: -1px;
+    width: 99%;
+}
+.dtpa_box, .influenza_box, .anti_box, .weeks_box{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    width: 90%;
+}
+.note_box_textarea{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.antenatal_btn{
+    margin-top: 12px;
+}
+.antenatal_btn_right{
+    float: right;
+    margin-left: 30px;
+    color: gray;
+    padding: 2px 15px;
+    border-radius: 5px;
+    border: 1px solid #69B128;
+    margin-right: 97px;
+}
+.antenatal_btn_left{
+    float: right;
+    color: #ffffff;
+    padding: 2px 15px;
+    border-radius: 5px;
+    background-color: #69B128;
+    border: 1px solid #69B128;
+}
+
+.systolic_input_box{
+    border: 1px solid #808080;
+    padding: 10px 10px;
+}

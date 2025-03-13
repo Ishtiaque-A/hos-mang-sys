@@ -1,0 +1,10 @@
+body {
+  font-family: system-ui !important;
+}
+label {
+  font-family: system-ui !important;
+}
+
+.full-width-datepicker {
+  width: 100% !important;
+}

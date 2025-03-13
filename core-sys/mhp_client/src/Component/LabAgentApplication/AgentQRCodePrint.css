@@ -1,0 +1,31 @@
+@media all {
+  .agent-qr-print {
+    display: none;
+  }
+}
+
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+  title {
+    display: none;
+  }
+}
+@media print {
+  .agent-qr-print {
+    display: block;
+    margin: 0 auto;
+  }
+  .agent-qr-code-print {
+    top: -110px;
+    left: 155px;
+  }
+  .qr-print-footer {
+    text-align: center;
+    margin-top: -85px;
+  }
+}

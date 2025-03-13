@@ -1,0 +1,8 @@
+button.core-button-class {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+button.core-button-class:focus {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}

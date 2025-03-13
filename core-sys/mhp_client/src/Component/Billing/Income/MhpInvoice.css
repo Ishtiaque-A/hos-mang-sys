@@ -1,0 +1,69 @@
+.mhp-invoice-table table {
+    width: 100%;
+    table-layout: auto;
+    border: 1px solid #F1F1F1;
+}
+
+.mhp-invoice-table-head {
+    background-color: #e9f3df;
+    border-bottom: 2px solid #ced4da;
+}
+
+.mhp-invoice-table table tr td {
+    border: 0 !important;
+    font-size: 14px;
+    padding: 7px;
+    font-weight: 500;
+}
+
+.invoice-item-remov-icon {
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    border-radius: 9.3552px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+    background-color: #FF3A6E;
+    font-size: 11px;
+}
+
+.accounts-income-table table {
+    width: 100%;
+}
+
+.accounts-income-table table tr td {
+    padding: 5px;
+}
+
+.accounts-income-table .accounts-head {
+    background-color: #F8F9FD;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+.accounts-income-table .accounts-head td {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+    z-index: 0 !important;
+}
+
+.print-accounts-report {
+    display: none;
+}
+
+@media print {
+    .accounts-income-table .accounts-head {
+        background-color: #fff;
+    }
+
+    .print-accounts-report {
+        display: block;
+    }
+}

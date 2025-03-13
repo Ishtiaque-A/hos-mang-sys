@@ -1,0 +1,429 @@
+.reg-bg-img {
+    padding: 0px;
+    margin: 0px;
+    height: 1200px;
+    width: 100%;
+    background-image: url(../../../Images/reg_background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent 0.7%;
+
+}
+
+.bg-light {
+    /* visibility: calc(0.9%); */
+    /* opacity: 0.9%; */
+    background-color: transparent;
+    filter: opacity(0.9) drop-shadow(0 0 0 white);
+
+}
+
+.font-size-patient {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.form-control {
+    border-color: #cac7d3 !important;
+    line-height: 1.0 !important;
+    height: 27px;
+    padding: 0rem .5rem !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 0 0.15rem rgb(13 110 253 / 25%);
+}
+
+.new-doctor-entry .tab-content {
+    border: none !important;
+    padding: 0rem 0rem !important;
+}
+
+/* doctor time slot */
+.time-slot-heading {
+    border-bottom: 2px solid #cac7d3;
+}
+
+.doctor-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.active-doctor {
+    color: #69B128;
+    border-bottom: 2px solid #69B128;
+    border-radius: 0;
+
+}
+
+.search-box {
+    line-height: 1rem;
+    height: 30px;
+    padding: 10px;
+    border: 0.8px solid #BCBCBC;
+    border-radius: 15px;
+}
+
+.filter-container input[type=search]:focus {
+    border: 2px solid #69B128 !important;
+}
+
+.filter-select {
+    height: 30px;
+    padding: 5px;
+    border: 0.8px solid #BCBCBC;
+    border-radius: 15px;
+    width: 170px;
+}
+
+.time-table .table {
+    border: 1px solid #BCBCBC;
+}
+
+.time-slot-detail .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff !important;
+    border-left: none !important;
+    background-color: #69B128 !important;
+    background: #F4F6F9;
+    font-size: 15px !important;
+    border-radius: 5px !important;
+}
+
+.time-slot-detail .nav-pills .nav-link {
+    border-radius: 8px !important;
+    margin-right: 20px !important;
+    margin-bottom: 2px;
+}
+
+.details-btn {
+    background: #EEEEEE !important;
+    border: 1px solid #BCBCBC !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+
+}
+
+/* doctor time slot */
+
+/* edit doctor page */
+.edit-doctor-icon {
+    font-size: 18px;
+    color: #363636 !important;
+    margin-top: 5px;
+    /* color:rgb(253, 255, 253) */
+}
+
+/* edit doctor page */
+
+/* doctor profile page */
+.doc-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.doc-container .doc-name {
+    color: #363636 !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+
+.doc-container .doc-department {
+    color: #888888;
+    font-size: 12px;
+}
+
+.doc-btn {
+    background-color: #E4E4E4;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin: 8px;
+    border: none !important;
+    color: #484848;
+}
+
+.doctor-btn-container .book-btn {
+    background-color: #69B128;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    font-size: 13px;
+    border: none !important;
+    color: #fff;
+}
+
+.doctor-btn-container .outline-btn {
+    background-color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 15px;
+    font-size: 13px;
+    border: 1px solid #69B128;
+    color: #69B128;
+}
+
+.doc-app-container .today h6 {
+    color: #EF894E;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.doc-app-container .today {
+    border-right: 3px solid #C0C0C0;
+}
+
+.doc-app-container .upcoming h6 {
+    color: #4DB9C1;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.doc-counter-container .doc-patients {
+    border: 0.5px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.doc-counter-container .doc-family {
+    border: 0.5px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.doc-counter-container .doc-help {
+    border: 0.5px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.doc-patients h6 {
+    color: #FFB319;
+    font-size: 20px;
+}
+
+.doc-family h6 {
+    color: #EF894E;
+    font-size: 20px;
+}
+
+.doc-help h6 {
+    color: #4DB9C1;
+    font-size: 20px;
+}
+
+.doc-counter-container span {
+    color: #363636;
+}
+
+.treatments .treatment-icon {
+    color: #69B128 !important;
+    margin-right: 10px;
+}
+
+.more-treatment {
+    font-weight: 700;
+    color: #69B128 !important;
+    font-size: 14px;
+}
+
+.doctor-profile-icon-container {
+    font-size: 20px !important;
+}
+
+.doctor-info-container .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff !important;
+    border-left: none !important;
+    background-color: #69B128 !important;
+    background: #F4F6F9;
+    font-size: 13px !important;
+    border-radius: 5px !important;
+}
+
+.doc-p-info-container span {
+    color: #888888;
+    font-size: 11px;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+
+.doc-p-info-container p {
+    font-size: 12px;
+    margin-bottom: 0rem;
+}
+
+.doctor-info-container .nav-pills .nav-link {
+    border-radius: 5px !important;
+    font-size: 13px !important;
+}
+
+.doctor-info-btn {
+    background: #EEEEEE !important;
+    margin-left: 7px;
+
+}
+
+/* doctor profile page */
+
+p.docimage_error {
+    color: red;
+    margin-top: 3px;
+}
+
+p.doc_image_size {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 0.1rem;
+}
+
+.docImage {
+    display: flex;
+}
+
+img.doctorImageUrlPreview {
+    width: 120px;
+    height: 100px;
+    margin-left: 15px;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+
+
+i.far.fa-times-circle {
+
+    font-size: 17px;
+    cursor: pointer;
+}
+
+i.far.fa-times-circle:hover {
+    cursor: pointer;
+    color: red;
+}
+
+/* doctor id card  */
+.doctor-id-card-container {
+    margin-left: 30px;
+}
+
+.doctor-id-card-front {
+    background-image: url("../../../Images/Doctors_id_front_bg.png");
+    background-size: cover;
+    background-position: center;
+    margin-right: 50px;
+}
+
+.doctor-id-card-front .doc-id-hospital {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: -10px;
+}
+
+.doctor-id-card-front .doc-id-hospital-name {
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+
+.doctor-id-card-front .doc-id-img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 18px;
+    border: 3px solid #0E1A34;
+}
+
+.doctor-id-card-front .doc-id-doc-name span {
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0E1A34;
+    padding: 5px 5px;
+    border-radius: 25px;
+    /* margin-right: 10px; */
+
+}
+
+.doctor-id-card-front .doc-id-doc-name {
+    margin-top: 45px;
+    margin-left: -15px;
+
+}
+
+.doctor-id-card-front .doc-id-doc-name p {
+    margin-bottom: 0.1rem !important;
+
+}
+
+.doctor-id-card-front .doc-card-id {
+    font-size: 9px;
+    font-weight: 600;
+    color: #03ACBF;
+    margin-left: 14px;
+    margin-right: 19px;
+    margin-top: 7px;
+
+}
+
+.doctor-id-card-front .doc-id-details span {
+    font-size: 10px;
+    font-weight: 600;
+    display: block;
+    float: right !important;
+
+}
+
+.doctor-id-card-front .doc-id-qr-code {
+    width: 70px;
+    height: 70px;
+
+}
+
+.doctor-id-card-back {
+    background-image: url("../../../Images/Doctors_id_back_bg.png");
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.doc-id-terms li {
+    line-height: 0.9rem !important;
+    font-size: 11px !important;
+}
+
+.authorise-sign hr {
+    margin-bottom: 0.2rem !important;
+    border-top: 2px solid rgba(0, 0, 0, 1) !important;
+    background-color: #000 !important;
+}
+
+.authorise-sign span {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.doc-id-address p {
+    margin-bottom: 0rem !important;
+    font-size: 10px;
+}
+
+/* doctor id card  */
+.departName {
+    width: 90%;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff !important;
+    margin-top: 36px !important;
+}
+
+@media print {
+    .doctor-id-card-container {
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+}

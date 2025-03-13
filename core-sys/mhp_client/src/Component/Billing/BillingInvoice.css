@@ -1,0 +1,243 @@
+.billing-logo {
+  width: 113px;
+  height: 54px;
+}
+.invoice-head-left h5 {
+  margin-bottom: 0.1rem !important;
+  font-weight: 700 !important;
+  color: #363636;
+}
+.invoice-head-left p {
+  margin-bottom: 0.1rem !important;
+  color: #363636;
+  font-size: 12px;
+}
+.invoice-head-right p {
+  margin-bottom: 0.1rem !important;
+  color: #363636;
+}
+.invoice-details {
+  background: #ffffff;
+  box-shadow: 0px 0px 15px 6px rgba(132, 119, 119, 0.25);
+  border-radius: 20px;
+}
+.invoice-details p {
+  margin-bottom: 0.2rem !important;
+  color: #363636;
+  font-size: 12px;
+}
+.invoice-details h6 {
+  color: #363636;
+  font-size: 14px;
+}
+.invoice-button-group button {
+  background-color: #fff;
+  color: #69b128;
+  border: 0.5px solid #69b128;
+  padding: 2px 10px;
+  margin-right: 3px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.invoice-button-group img {
+  width: 16px;
+}
+.invoice-fee-table td {
+  color: #363636;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.invoice-fee-table thead {
+  font-size: 14px;
+  color: #69b128;
+  position: sticky;
+  top: -2px;
+  background-color: #ffff;
+  border-bottom: 1px solid #cfcccc;
+  border-top: 1px solid #cfcccc;
+}
+.invoice-fee-table thead th {
+  font-weight: 600 !important;
+}
+.invoice-fee-table tfoot {
+  border-bottom: 1px solid #cfcccc;
+  margin-top: 5px;
+}
+.payment-table {
+  background: #f7f7f7;
+  box-shadow: 0px 7px 17px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.payment-table h6 {
+  font-size: 14px;
+}
+.payment-table .form-select {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  margin-top: -8px;
+}
+.payment-table td {
+  font-size: 12px !important;
+}
+.total-amount-table td {
+  color: #363636;
+  font-weight: 400;
+  font-size: 12px;
+}
+.invoice-patient-detail-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.invoice-patient-detail-card {
+  box-shadow: 0px 0px 15px 6px rgba(132, 119, 119, 0.25);
+  border-radius: 10px;
+}
+.invoice-patient-detail-card p {
+  color: #363636;
+  font-weight: 400;
+}
+.invoice-patient-detail-card h6 {
+  font-weight: 700;
+}
+.invoice-patient-detail-card .invoice-context {
+  color: #363636;
+  font-size: 19px;
+}
+.invoice-patient-detail-img h6 {
+  font-weight: 500;
+}
+.inoice-amount-card {
+  box-shadow: 0px 0px 15px 6px rgba(132, 119, 119, 0.25);
+  border-radius: 10px;
+}
+.invoice-due {
+  background-color: #ffe3e3;
+  color: #c60202;
+  padding: 8px 18px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.preview-btn {
+  border: 0.5px solid #69b128;
+  color: #69b128;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+.save-invoice-btn {
+  border: 0.5px solid #01a583;
+  background-color: #fff;
+  color: #01a583;
+  padding: 8px 0px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.send-invoice-btn {
+  border: 0.5px solid #69b128;
+  background-color: #fff;
+  color: #69b128;
+  padding: 8px 0px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.custom_table {
+  overflow-y: scroll;
+  position: relative;
+  height: 0px;
+}
+
+.tableRow {
+  background-color: rgb(87, 131, 87);
+  cursor: pointer;
+}
+
+.tableRowHover:hover {
+  background-color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+
+.tableRowActive td {
+  background-color: #dadada;
+  cursor: pointer;
+}
+
+.billingTable {
+  /* height: 120px; */
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.searchDropDown {
+  color: #646464;
+  padding: 2px;
+  border-radius: 5px;
+  border: solid 1px #646464;
+}
+.searchField {
+  color: #646464;
+  border-radius: 5px;
+  border: solid 1px #646464;
+}
+.fa-magnifying-glass {
+  padding: 5px;
+  margin-left: 8px;
+}
+.fa-magnifying-glass:hover {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #9ba09f;
+}
+.custom_table td {
+  border: 1px solid #ced4da;
+  padding: 2px 4px;
+}
+.custom_table {
+  width: 100%;
+}
+.invoicePreviw {
+  display: none;
+}
+
+@media print {
+  .invoicePreviw {
+    display: block;
+  }
+}
+
+.BillingHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i.fa-solid.fa-circle-plus.addBilling {
+  font-size: 16px;
+  color: #757575;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+i.fa-solid.fa-circle-plus.addBilling:hover {
+  color: #77b129;
+}
+
+.billing .tab-content {
+  border: none !important;
+  padding: 0rem 1rem !important;
+}
+
+.divLoaderBilling {
+  margin-left: 46%;
+  margin-top: 10%;
+}
+.invoPreview:hover {
+  color: #69b128;
+}

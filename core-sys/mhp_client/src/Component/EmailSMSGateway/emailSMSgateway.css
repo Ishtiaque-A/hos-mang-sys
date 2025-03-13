@@ -1,0 +1,16 @@
+.form-check-input:checked {
+  background-color: #69b128 !important;
+  border-color: #69b128 !important;
+}
+.badge.bg-success {
+  background-color: #69b128 !important;
+}
+
+.PhoneInputCountry {
+  padding-right: 12px !important;
+  border-right: 1px solid #d3d3d3 !important;
+}
+.PhoneInputInput {
+  border: none !important;
+  outline: none !important;
+}

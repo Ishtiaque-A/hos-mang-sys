@@ -1,0 +1,31 @@
+.table-head{
+    background-color:#c1c1c1;
+}
+.table-head>th>tr{
+    font-weight: bold;
+}
+.bottom{
+    margin-top: -50px;
+    font-size: 18px;
+}
+/* .buttonStyleRadio{
+    background: #69B128;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    float: right;
+    padding:7px 15px;
+} */
+
+
+.radiology_print{
+display: none;
+}
+
+@media print{
+.radiology_print {
+        display: block;
+    }
+}

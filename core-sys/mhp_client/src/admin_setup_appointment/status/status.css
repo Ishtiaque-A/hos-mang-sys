@@ -1,0 +1,21 @@
+.show{
+    pointer-events: all;
+
+}
+.hide{
+    pointer-events: none;
+}
+.button2 {background-color: #008CBA;} /* Blue */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  

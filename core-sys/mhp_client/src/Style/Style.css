@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* font-family  : 'Roboto', Arial, sans-serif; */
+
+}
+
+body {
+    position: relative;
+    /* min-height: 100vh;
+  width          : 100%;
+  overflow       :sticky; */
+}
+
+:root {
+    --offcanvas-width: 270px;
+    --topNavbarHeight: 56px;
+}
+
+/* .sidebar-top{
+    position     : relative;
+    position  : top;
+    height: calc(auto - 50px);
+   z-index: -86px;
+} */
+.navbar-header {
+    position: relative;
+    position: top;
+    /* background: linear-gradient(to left, #9999ff 0%, #00c5cc 100%); */
+}
+
+.sidebar-nav {
+    width: var(--offcanvas-width);
+    background-color: #30373e;
+}
+
+.sidebar-nav-top {
+    background-color: #00becc;
+    height: 95px;
+    padding-left: 0px;
+}
+
+/* .sidebar-link{
+    display: flex;
+    align-items: center;
+} */
+
+@media(min-width:992px) {
+    body {
+        overflow: auto !important;
+
+    }
+
+    .offcanvas-backdrop::before {
+        display: none;
+    }
+
+    main {
+        margin-left: var(--offcanvas-width);
+
+    }
+
+    .sidebar-nav {
+        transform: none;
+        visibility: visible !important;
+        top: var(--topNavbarHeight);
+        height: calc(100% -var(--topNavbarHeight));
+
+    }
+}
+
+
+/* .user-main {
+    flex:1;   
+    height: calc(auto - 50px);
+    top: 239px;
+    z-index: 1;
+    
+} */
+
+.bg-text {
+    color: #c0c5caee;
+}
+
+.accordion-collapse {
+    border: none;
+    margin-left: 0px;
+}
+
+/* 
+.accordion-button {
+    padding: 0px;
+    border: 0;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 3;
+    color: #c1cbd4;
+    text-align: left;
+    background-color: #30373e;
+} */
+
+.accordion-button:focus {
+    box-shadow: none;
+    border: none;
+}
+
+/* .accordion-button:not(.collapsed) {
+    background: none;
+    color: #bdcad4de;
+    background-color: #3e4349;
+} */
+
+/* .accordion-body {
+    padding: 16px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    background-color: #30373e;
+    color: #bdcad4de;
+}  */
+
+.accordion-body span {
+    font-size: 15px;
+    font-weight: normal;
+    /* color: #c0c5caee; */
+
+}
+
+.accordion-body h6 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    /* color: #c0c5caee;     */
+}
+
+
+
+.patient_modal_cancel_button {
+    background: #FFF;
+    color: #69B128;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #69B128;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: all linear 0.4s;
+}
+
+.patient_modal_cancel_button:hover {
+    background: #69B128;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.appointment_modal_title {
+    color: rgb(43, 43, 43);
+}
+
+.online_appointment_modal_header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    padding: 16px 12px 8px 32px;
+    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+}
+
+.appointment_modal_body {
+    padding: 10px 20px 20px 20px;
+}
+
+.btn-close {
+    margin-left: -20px !important;
+    position: absolute;
+    right: 14px !important;
+    top: 17px;
+}
+
+#online-appointment .online_appointment_filter {
+    font-size: 16px;
+}
+
+#online-appointment .background_color_text_field {
+    background-color: #fff !important;
+    width: 100%;
+}
+
+#online-appointment .online_appointment_heading {
+    background: #fff;
+    padding: 0px 0;
+}
+
+#online-appointment .onlineAppointmentDate {
+    margin: -8px 0 0 16px;
+    width: 20%;
+}
+
+#online-appointment .onlineAppointmentDate:first-child {
+    margin: -8px 0 0 32px
+}
+
+#online-appointment .search_oniline_appointment_button {
+    background-color: #69B128 !important;
+    color: #fff;
+}
+
+#online-appointment .search_oniline_appointment_search_button {
+    padding: 0 0 4px 0;
+}
+
+#online-appointment .online_appointment_heading_two {
+    background: #fff;
+    margin: 12px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* #online-appointment .search_style{
+    padding: 4px 0px!important;
+} */
+/* .sidebar {
+    z-index: 0 !important;
+} */
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        z-index: 11 !important;
+    }
+
+}
+
+.lab-points-plan th {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.card-login-turn-off{
+    width: 690px;
+    padding: 5px 10px 10px 10px;
+    border-radius: 20px;
+    background:whitesmoke;
+    border: none;
+    height: 480px;
+}
+
+p.text-off{
+    line-height: 8px;
+}
+

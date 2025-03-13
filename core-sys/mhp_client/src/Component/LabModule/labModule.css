@@ -1,0 +1,63 @@
+.lab-header {
+    border-bottom: 3px solid #C4C4C4;
+
+}
+
+.report-btn {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #5fa832;
+    color: #ffffff;
+    outline: none;
+    border: 0;
+}
+
+.images-btn {
+    padding: 10px 22px;
+    border-radius: 3px;
+    background-color: #c3c3c3;
+    outline: none;
+    border: 0;
+}
+
+.cancel-btn{
+    padding:8px 20px;
+    border-radius: 3px;
+    background-color:#ffffff;
+    outline: none;
+    border: 1px solid #5fa832 ;
+}
+
+.datedropdown{
+    height:40px;
+}
+.download{
+    color:#5fa832;
+}
+
+/* Inactive tab */
+.myClass ul > li > a {
+    background-color:black;
+    color: red;
+}
+.myClass ul > li > a:hover {
+    background-color: pink;
+}
+
+/* Active tab */
+.myClass ul > li.active > a,
+.myClass ul > li.active > a:hover,
+.myClass ul > li.active > a:focus {
+    background-color: red;
+    color: white;
+}
+
+.custo {
+   font-size: 18px;
+   margin-left:20px;
+   color:black;
+}
+
+iframe.LabPdfPrevew {
+    height: 31rem;
+}

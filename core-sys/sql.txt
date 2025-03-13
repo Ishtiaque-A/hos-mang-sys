@@ -1,0 +1,224 @@
+
+ALTER TABLE `users` ADD `remember_token` VARCHAR(256) NULL DEFAULT NULL AFTER `mobile`;
+ALTER TABLE `users` ADD `deviceToke` VARCHAR(256) NULL AFTER `remember_token`;
+ALTER TABLE `mhp_appointment_schedulers` ADD `appointment_completed` BOOLEAN NOT NULL DEFAULT FALSE AFTER `media`;
+ALTER TABLE `online_appointment_bookings` ADD `inovice_number` VARCHAR(255) NULL AFTER `doctor_id`;
+ALTER TABLE `users` ADD `password` VARCHAR(255) NULL AFTER `email`;
+ALTER TABLE `mhp_doctors_masters` ADD `doctor_fee` VARCHAR(255) NULL AFTER `dr_images`;
+ALTER TABLE `online_appointment_bookings` ADD `shift` VARCHAR(255) NULL DEFAULT NULL AFTER `transaction_no`, ADD `referred_name` VARCHAR(255) NULL DEFAULT NULL AFTER `shift`, ADD `payment_confirmation` BOOLEAN NOT NULL DEFAULT FALSE AFTER `referred_name`;
+ALTER TABLE `online_appointment_bookings` ADD `transaction_phone_number` VARCHAR(255) NULL DEFAULT NULL AFTER `transaction_no`;
+ALTER TABLE `mhp_patient_prescriptions` ADD `date` DATE NULL DEFAULT NULL AFTER `doctor_id`;
+ALTER TABLE `online_appointment_bookings` ADD `reschedule_id` INT NULL DEFAULT NULL AFTER `is_confirmed`;
+ALTER TABLE `mhp_doctor_chambers` CHANGE `all_month` `status` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL;
+ALTER TABLE `mhp_labratories` ADD `address` VARCHAR(256) NULL DEFAULT NULL AFTER `labratory_name`, ADD `phone` VARCHAR(100) NULL DEFAULT NULL AFTER `address`, ADD `fax` VARCHAR(100) NULL DEFAULT NULL AFTER `phone`, ADD `email` VARCHAR(100) NULL DEFAULT NULL AFTER `fax`, ADD `websiteLink` VARCHAR(100) NULL DEFAULT NULL AFTER `email`, ADD `logo` VARCHAR(100) NULL DEFAULT NULL AFTER `websiteLink`;
+ALTER TABLE `mhp_billings` CHANGE `item_details` `item_details` LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `online_appointment_bookings` ADD `reschedule_id` INT NULL DEFAULT NULL AFTER `is_confirmed`;
+ALTER TABLE `mhp_lab_doc_inbox_files` ADD `title` VARCHAR(256) NULL DEFAULT NULL AFTER `file_name`;
+ALTER TABLE `mhp_lab_modules` ADD `result` VARCHAR(256) NULL AFTER `remarks`;
+ALTER TABLE `mhp_lab_modules` ADD `action_taken` LONGTEXT NULL AFTER `result`;
+ALTER TABLE `weekend_holidays` ADD `effictive_date` DATE NULL DEFAULT NULL AFTER `id`;
+ALTER TABLE `holidays` ADD `endDate` DATE NULL AFTER `holiday_sub_group_id`;
+ALTER TABLE `mhp_great_lab_letter_heads` ADD `preferred_sign` VARCHAR(255) NULL AFTER `preferred_designation`;
+ALTER TABLE `mhp_great_lab_letter_heads` ADD `preferred_name` VARCHAR(255) NULL AFTER `updated_at`;
+ALTER TABLE `mhp_great_lab_letter_heads` ADD `preferred_designation` VARCHAR(255) NULL AFTER `preferred_name`;
+ALTER TABLE `doctor_payments` CHANGE `date` `date` DATETIME NULL DEFAULT NULL;
+ALTER TABLE `doctor_payments` ADD `transcition_number` VARCHAR(255) NULL DEFAULT NULL AFTER `updated_at`, ADD `payment_method` VARCHAR(255) NULL DEFAULT NULL AFTER `transcition_number`;
+ALTER TABLE `doctor_payments` ADD `phone_number` VARCHAR(255) NULL DEFAULT NULL AFTER `transcition_number`;
+ALTER TABLE `doctor_payments` CHANGE `date` `date` DATETIME NULL DEFAULT NULL;
+ALTER TABLE `mhp_new_lab_module_test_names` ADD `parameter_group_id` VARCHAR(255) NULL AFTER `updated_at`;
+ALTER TABLE `mhp_lab_test_parameter_name_and_units` ADD `parameter_group_id` VARCHAR(256) NULL AFTER `parameter_unit`;
+ALTER TABLE `mhp_great_lab_report_details` ADD `parameter_group_id` VARCHAR(255) NULL AFTER `updated_at`;
+ALTER TABLE `mhp_great_lab_reports` ADD `report_confirm` VARCHAR(256) NULL DEFAULT NULL AFTER `validator`;
+ALTER TABLE `parameter_group_names` ADD `hidden` VARCHAR(256) NULL DEFAULT '0' AFTER `test_name_id`;
+ALTER TABLE `mhp_lab_center_details` ADD `name` VARCHAR(255) NULL AFTER `email`;
+ALTER TABLE `mhp_great_lab_invoice_details` ADD `specimen_name` VARCHAR(255) NULL AFTER `report_id`, ADD `specimen_id` VARCHAR(255) NULL AFTER `specimen_name`;
+ALTER TABLE `mhp_past_histories` CHANGE `date` `date` DATETIME NULL DEFAULT NULL;
+ALTER TABLE `holidays` ADD `endDate` DATE NULL DEFAULT NULL AFTER `updated_at`, ADD `holiday_group_id` BIGINT UNSIGNED NULL DEFAULT NULL AFTER `endDate`, ADD `holiday_sub_group_id` BIGINT UNSIGNED NULL DEFAULT NULL AFTER `holiday_group_id`;
+ALTER TABLE `mhp_radiologies` ADD `radiology_test_name` VARCHAR(255) NULL AFTER `updated_at`, ADD `radiology_test_category` VARCHAR(255) NULL AFTER `radiology_test_name`;
+ALTER TABLE `mhp_doctor_chambers` ADD `appointment_type` VARCHAR(255) NULL DEFAULT NULL AFTER `type`;
+ALTER TABLE `mhp_patients_lab_report_files` ADD `type_of_report` VARCHAR(256) NULL AFTER `file`;
+
+ALTER TABLE `mhp_usual_providers` ADD `mobile` VARCHAR(256) NULL AFTER `usual_provider_name`;
+ALTER TABLE `mhp_usual_providers` ADD `phone` VARCHAR(256) NULL AFTER `usual_provider_name`;
+ALTER TABLE `mhp_usual_providers` ADD `address` TEXT NULL AFTER `usual_provider_name`;
+ALTER TABLE `mhp_usual_providers` ADD `email` VARCHAR(256) NULL AFTER `usual_provider_name`;
+
+ALTER TABLE `mhp_prescription_setups`
+ADD COLUMN header_img VARCHAR(255) AFTER doctor_id,
+ADD COLUMN footer_img VARCHAR(255) AFTER header_img;
+
+
+ALTER TABLE `mhp_prescription_setups` ADD `use_footer` INT NOT NULL DEFAULT '1' AFTER `footer_img`, ADD `use_header` INT NOT NULL DEFAULT '1' AFTER `use_footer`;
+
+ALTER TABLE `new_pathology_setups` ADD `test_name_id` VARCHAR(100) NULL DEFAULT NULL AFTER `test_category_id`;
+
+
+ALTER TABLE `mhp_prescription_setups` ADD `doctor_signature` VARCHAR(255) NULL DEFAULT NULL AFTER `header_img`, ADD `use_doctor_signature` VARCHAR(255) NULL DEFAULT NULL AFTER `doctor_signature`;
+ALTER TABLE `mhp_prescriptions_lists` ADD `advice` LONGTEXT NULL AFTER `prescription_name`;
+ALTER TABLE `mhp_prescriptions_lists` ADD `investigation` LONGTEXT NULL AFTER `prescription_name`;
+
+
+
+
+
+15/02/2024
+
+ALTER TABLE `users` ADD `login_status` BOOLEAN NOT NULL DEFAULT FALSE AFTER `deviceToke`, ADD `last_login_time` DATETIME NULL DEFAULT NULL AFTER `login_status`;
+
+
+ALTER TABLE `users` CHANGE `last_login_time` `last_login_logout_time` DATETIME NULL DEFAULT NULL;
+ALTER TABLE `mhp_great_lab_invoices` ADD `point_plan` INT NULL AFTER `referrer`;
+ALTER TABLE `mhp_great_lab_invoices` ADD `point_plan_master` INT NULL AFTER `point_plan`;
+ALTER TABLE `mhp_great_lab_invoices` ADD `active_plan` INT NULL AFTER `point_plan_master`;
+ALTER TABLE `mhp_prescription_setups` ADD `footer_content` TEXT NULL DEFAULT NULL AFTER `use_doctor_signature`, ADD `header_content` TEXT NULL DEFAULT NULL AFTER `footer_content`;
+
+ALTER TABLE `mhp_rxes` ADD `brand_name` VARCHAR(256) NULL AFTER `drug_name`;
+ALTER TABLE `mhp_great_lab_invoice_details` ADD `booth_id` INT NULL AFTER `testName`;
+ALTER TABLE `great_lab_stock_ins` ADD `status` VARCHAR(256) NULL AFTER `vat`;
+ALTER TABLE `great_lab_stock_ins` ADD `txn_id` INT NULL AFTER `id`;
+ALTER TABLE `great_lab_booth_requisions` ADD `date` VARCHAR(256) NULL AFTER `status`;
+
+
+
+ALTER TABLE `users` ADD `branch_id` INT NULL DEFAULT NULL AFTER `db_name`, ADD `branch_name` VARCHAR(255) NULL DEFAULT NULL AFTER `branch_id`;
+ALTER TABLE `password_resets` ADD `id` INT NOT NULL AUTO_INCREMENT AFTER `created_at`, ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `mhp_patients` ADD `doctor_id` INT NULL DEFAULT NULL AFTER `patient_hn_number`;
+
+ALTER TABLE `mhp_patients` CHANGE `doctor_id` `doctor_id` INT NULL DEFAULT '0';
+ALTER TABLE `great_lab_stocks` ADD `branch_id` INT NOT NULL AFTER `location_id`;
+ALTER TABLE `great_lab_booths` ADD `branch_id` INT NULL AFTER `id`;
+ALTER TABLE `great_lab_booth_requisions` ADD `branch_id` INT NULL AFTER `booth_id`;
+ALTER TABLE `great_lab_requisition_details` ADD `branch_id` INT NULL AFTER `product_id`;
+ALTER TABLE `great_lab_stock_outs` ADD `branch_id` INT NULL AFTER `location_id`;
+ALTER TABLE `great_lab_stock_locations` ADD `branch_id` INT NULL AFTER `name`;
+ALTER TABLE `great_lab_stock_locations` ADD `branch_name` VARCHAR(256) NULL AFTER `name`;
+ALTER TABLE `great_lab_requisition_details` ADD `dispatched_quantity` INT NOT NULL DEFAULT '0' AFTER `pending_quantity`;
+ALTER TABLE `great_lab_branch_requisition_details` ADD `central_delivered` INT NOT NULL DEFAULT '0' AFTER `delivered_quantity`;
+ALTER TABLE `great_lab_branch_requisition_details` ADD `central_pending` INT NOT NULL DEFAULT '0' AFTER `delivered_quantity`;
+ALTER TABLE `mhp_great_lab_invoices` CHANGE `active_plan` `point_amount` DOUBLE NULL DEFAULT '0';
+ALTER TABLE `mhp_great_lab_invoices` ADD `point_share` DOUBLE NOT NULL DEFAULT '0' AFTER `point_plan_master`;
+ALTER TABLE `great_lab_point_redeems` ADD `previous_due` DOUBLE NOT NULL DEFAULT '0' AFTER `due_point`;
+ALTER TABLE `mhp_great_lab_invoices` ADD `created_by` VARCHAR(256) NULL AFTER `sampleReceiverToLabRemark`;
+ALTER TABLE `mhp_great_lab_invoices` ADD `created_by_id` INT NULL AFTER `sampleReceiverToLabRemark`;
+ALTER TABLE `users` ADD `saas_branch_id` INT NULL AFTER `saas_user_id`;
+ALTER TABLE `password_resets` ADD `id` INT NOT NULL AUTO_INCREMENT FIRST, ADD PRIMARY KEY (`id`);
+ALTER TABLE `mhp_new_lab_module_test_names` ADD `discount` DOUBLE NOT NULL DEFAULT '0' AFTER `parameter_group_id`;
+
+
+
+ALTER TABLE `mhp_new_lab_module_test_names` ADD `specimen_id` VARCHAR(255) NULL AFTER `test_sub_category_id`;
+ALTER TABLE `mhp_great_lab_invoice_details` ADD `collector_id` INT NOT NULL DEFAULT '0' AFTER `specimen_id`;
+10/05/2024
+--------------------
+ALTER TABLE `online_appointment_bookings` CHANGE `patient_id` `patient_hn_number` INT NULL DEFAULT NULL;
+ALTER TABLE `online_appointment_bookings` CHANGE `patient_hn_number` `patient_hn_number` VARCHAR(256) NULL DEFAULT NULL;
+
+ALTER TABLE `doctor_payments` CHANGE `patient_id` `patient_hn_number` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+
+ALTER TABLE `patient_organizations` ADD `isActive` TINYINT NULL DEFAULT '1' AFTER `organization_id`;
+ALTER TABLE `online_appointment_bookings` CHANGE `calling_type` `calling_type` VARCHAR(256) NULL DEFAULT NULL;
+
+ALTER TABLE `users` ADD `patient_hn_number` VARCHAR(256) NULL DEFAULT NULL AFTER `db_name`;
+ALTER TABLE `patient_lab_request_from_apps` ADD `address` TEXT NULL AFTER `ref_num`;
+ALTER TABLE `patient_lab_request_from_apps` ADD `date` VARCHAR(256) NULL AFTER `ref_num`;
+ALTER TABLE `patient_lab_request_from_apps` ADD `status` VARCHAR(256) NULL AFTER `ref_num`;
+
+ALTER TABLE `patient_lab_request_from_apps` CHANGE `amount` `amount` VARCHAR(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `patient_lab_request_from_apps` CHANGE `sample_collention` `sample_collention` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT 'home';
+ALTER TABLE `patient_lab_request_from_apps` CHANGE `payment_number` `payment_number` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `patient_lab_request_from_apps` CHANGE `tran_id` `tran_id` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `patient_lab_request_from_apps` CHANGE `ref_num` `ref_num` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+
+ALTER TABLE `mhp_past_histories` ADD `appointment_id` VARCHAR(256) NULL AFTER `saas_branch_name`;
+ALTER TABLE `mhp_great_doc_resons` ADD `appointment_id` VARCHAR(256) NULL AFTER `saas_branch_name`;
+
+
+ALTER TABLE `mhp_rxes` ADD `appointment_id` INT NOT NULL DEFAULT '0' AFTER `drug_id`, ADD `prn` VARCHAR(255) NULL DEFAULT NULL AFTER `appointment_id`;
+UPDATE mhp_rxes SET prn = '' WHERE prn IS NULL;
+
+ALTER TABLE `mhp_patient_prescriptions` ADD `patient_hn` VARCHAR(256) NULL AFTER `patient_id`;
+ALTER TABLE `mhp_appointment_schedulers` CHANGE `notes` `notes` LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `mhp_patients_lab_report_files` ADD `patient_hn` VARCHAR(256) NULL AFTER `patient_id`;
+
+
+ALTER TABLE `mhp_great_lab_invoice_details` ADD `point` DOUBLE NULL DEFAULT '0' AFTER `discount`;
+ALTER TABLE `mhp_great_lab_invoice_details` ADD `point_percent` VARCHAR(256) NULL DEFAULT '0' AFTER `discount`;
+
+ALTER TABLE `mhp_great_lab_invoices` ADD `discount` DOUBLE NULL DEFAULT '0' AFTER `specialDiscount`;
+ALTER TABLE `patient_lab_request_from_apps` CHANGE `patient_id` `patient_id` VARCHAR(256) NOT NULL;
+ALTER TABLE `mhp_patient_prescriptions` ADD `appointment_id` VARCHAR(256) NULL AFTER `patient_id`;
+ALTER TABLE `uploaded_prescriptions` ADD `patient_hn` VARCHAR(256) NULL AFTER `patient_id`;
+ALTER TABLE `uploaded_prescriptions` ADD `saas_branch_id` VARCHAR(256) NULL AFTER `appointment_id`;
+
+ALTER TABLE `mhp_patients` ADD `age` VARCHAR(256) NULL DEFAULT '0' AFTER `patient_dob`;
+ALTER TABLE `mhp_procedure_details` ADD `details` LONGTEXT NULL AFTER `name`;
+ALTER TABLE `mhp_diets` ADD `name` TEXT NULL AFTER `saas_branch_name`;
+
+ALTER TABLE `item_numbers` ADD `department` VARCHAR(256) NULL AFTER `name`, ADD `description` TEXT NULL AFTER `department`;
+
+ALTER TABLE `mhp_procedure_report_charts` ADD `anesthetist` VARCHAR(256) NULL AFTER `anesthesia`;
+ALTER TABLE `mhp_procedure_report_charts` ADD `signed_by` VARCHAR(256) NULL AFTER `department`;
+ALTER TABLE `mhp_procedure_report_charts` ADD `surgeon` VARCHAR(256) NULL AFTER `anesthesia`;
+
+
+ALTER TABLE `mhp_new_lab_module_test_parameters` ADD `normal_value` LONGTEXT NULL DEFAULT NULL AFTER `upper_value`;
+ALTER TABLE `mhp_eye2nds` CHANGE `saas_branch_name` `appointment_id` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `mhp_eyes` CHANGE `saas_branch_name` `appointment_id` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `mhp_generals` CHANGE `saas_branch_name` `appointment_id` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+
+ALTER TABLE mhp_prescription_setups ADD clinical_exam TINYINT(1) DEFAULT 0 COMMENT '0=show clinical exam, 1=hide clinical exam';
+
+ALTER TABLE `mhp_great_lab_mone_recipts` ADD `due_amount` VARCHAR(255) NULL DEFAULT NULL AFTER `total_amount_paid`, ADD `referredBy` VARCHAR(255) NULL DEFAULT NULL AFTER `due_amount`, ADD `age` VARCHAR(255) NULL DEFAULT NULL AFTER `referredBy`, ADD `invoice_id` VARCHAR(255) NULL DEFAULT '0' AFTER `age`;
+ALTER TABLE `mhp_lab_test_parameter_name_and_units` ADD `reference_value` TEXT NOT NULL AFTER `parameter_unit`;
+ALTER TABLE `mhp_lab_test_parameter_name_and_units` CHANGE `reference_value` `reference_value` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `mhp_great_lab_reports` ADD `test_category` VARCHAR(256) NULL AFTER `test_group`;
+ALTER TABLE mhp_great_lab_letter_heads
+ADD COLUMN hide_report_header TINYINT(1) DEFAULT 0 COMMENT '0=hide, 1=show' 
+AFTER preferred_sign;
+
+ALTER TABLE `collector_infos` CHANGE `phone` `phone` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL;
+ALTER TABLE `collector_infos` CHANGE `email` `email` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL;
+ALTER TABLE `collector_infos` CHANGE `address` `address` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL;
+
+ALTER TABLE `mhp_new_lab_module_test_names` ADD `hide_test_name` TINYINT NULL DEFAULT '0' AFTER `discount`;
+
+ALTER TABLE `mhp_lab_test_parameter_name_and_units` ADD `options` TEXT NULL AFTER `reference_value`;
+ALTER TABLE `mhp_lab_test_parameter_name_and_units` ADD `show_options` INT NOT NULL DEFAULT '0' AFTER `reference_value`;
+ALTER TABLE `mhp_great_lab_mone_recipts` ADD `money_receipt_type` VARCHAR(256) NULL AFTER `invoice_number`;
+ALTER TABLE `mhp_great_lab_invoices` ADD `refundAmount` INT NULL DEFAULT '0' AFTER `paidAmount`;
+ALTER TABLE `mhp_new_lab_module_test_names` ADD `item_code` VARCHAR(256) NULL AFTER `hide_test_name`;
+ALTER TABLE `mhp_new_lab_module_test_names` CHANGE `specimen_id` `specimen_id` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL;
+
+ALTER TABLE `mhp_great_lab_mone_recipts` ADD `created_by` VARCHAR(256) NULL AFTER `age`;
+ALTER TABLE `mhp_great_lab_mone_recipts` ADD `created_by_id` VARCHAR(256) NULL AFTER `age`;
+ALTER TABLE `mhp_great_lab_invoices` ADD `marketer` VARCHAR(256) NULL AFTER `referrer`;
+
+ALTER TABLE `mhp_great_lab_invoices` ADD `shift_id` VARCHAR(256) NULL AFTER `created_by_id`;
+
+ALTER TABLE `mhp_great_lab_mone_recipts` ADD `shift_id` VARCHAR(256) NULL AFTER `created_by_id`;
+
+ALTER TABLE `users` ADD `regFrom` VARCHAR(256) NULL AFTER `updated_at`;
+ALTER TABLE `users` ADD `dob` VARCHAR(256) NULL AFTER `updated_at`;
+ALTER TABLE `users` ADD `organization_id` VARCHAR(256) NULL AFTER `updated_at`;
+
+ALTER TABLE `admin_comments` ADD `reminder` VARCHAR(256) NULL DEFAULT NULL AFTER `comment`;
+ALTER TABLE `users` ADD `discharge_date` VARCHAR(256) NULL AFTER `regFrom`;
+ALTER TABLE `mhp_appointment_schedulers` ADD `consultaion_start` VARCHAR(256) NULL AFTER `updated_at`;
+ALTER TABLE `mhp_appointment_schedulers` ADD `consultation_end_time` VARCHAR(256) NULL AFTER `updated_at`;
+ALTER TABLE `mhp_appointment_schedulers` ADD `reschedule_time` VARCHAR(256) NULL AFTER `updated_at`;
+
+ALTER TABLE `mhp_patients` ADD `day` VARCHAR(256) NULL DEFAULT '0' AFTER `age`;
+ALTER TABLE `mhp_patients` ADD `month` VARCHAR(256) NULL DEFAULT '0' AFTER `age`;
+
+ALTER TABLE `mhp_medication_chart_part_one_all_tables` CHANGE `services__name` `rx_id` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `mhp_medication_chart_part_one_all_tables` CHANGE `additional__charts__ternary` `date` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `mhp_medication_chart_part_one_all_tables` CHANGE `unit__name` `nurse` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `mhp_medication_chart_part_one_all_tables` CHANGE `presentation__ternary` `sign` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+ALTER TABLE `mhp_medication_chart_part_one_all_tables` ADD `admission_id` VARCHAR(256) NULL AFTER `doctor_id`;
+
+
+
+//29/01/2025
+ALTER TABLE `mhp_great_lab_invoice_details` ADD `is_refund` BOOLEAN NOT NULL DEFAULT FALSE AFTER `fee`;
+ALTER TABLE `mhp_great_lab_invoices` ADD `discount_percentage` DECIMAL NOT NULL DEFAULT '0' AFTER `specialDiscount`;

@@ -1,0 +1,64 @@
+.agent-qr-container {
+  width: 472px;
+  height: 567px;
+}
+
+.main-content-area {
+  width: 100%;
+  height: 360px;
+  background-image: linear-gradient(#0c836128, #1cc9e033);
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
+  padding: 20px;
+  text-align: center;
+}
+
+.box {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+}
+
+.box-number {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.generate-qr-code {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  top: -115px;
+  left: 175px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.qr-footer-content {
+  text-align: center;
+  margin-top: -100px;
+}
+
+.specilist-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.service-name {
+  white-space: nowrap;
+  font-size: 9px;
+  margin-bottom: 0;
+}
+
+.agent-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+}

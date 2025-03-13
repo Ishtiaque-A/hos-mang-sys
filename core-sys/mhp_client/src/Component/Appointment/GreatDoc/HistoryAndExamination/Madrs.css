@@ -1,0 +1,18 @@
+.apparent_sadness{
+    box-shadow:  3px 3px 6px 5px #ccc;
+    padding: 5px;
+    border-radius:5px;
+}
+.apparent_two{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.mdras_tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ffffff !important;
+    background: #69B128 !important;
+    border-left: none !important;
+    border-radius: 10px !important;
+}
+.mdras_tabs{
+    margin-left: 37%;
+}

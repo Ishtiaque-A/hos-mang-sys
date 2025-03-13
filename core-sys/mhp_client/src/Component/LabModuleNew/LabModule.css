@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.home-1st-note {
+  font-size: 14px;
+  /* font-weight: 500; */
+  display: block;
+}
+
+.todyas-report {
+  font-size: 14px;
+  /* font-weight: 500; */
+}
+
+.btn-lab-active {
+  border: none;
+  background-color: #fff;
+  color: #69b128;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+.btn-lab-active span {
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 500;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  background: #69b128;
+  display: inline-block;
+  color: #fff;
+}
+
+.btn-lab {
+  border: none;
+  background-color: #69b128;
+  color: #fff;
+  padding: 5px 8px;
+}
+
+.btn-lab span {
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 500;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  background: #ffffff;
+  display: inline-block;
+  color: #69b128;
+}
+
+.act {
+  background: #ffffff;
+  border-radius: 4px;
+  /* color:#69B128; */
+  padding: 0px 7px;
+}
+
+.p-color {
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+.p-color-update {
+  font-size: 13px;
+  font-weight: 400;
+  color: #69b128;
+}
+
+.next-btn {
+  background-color: #69b128;
+  padding: 3px 18px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.btns {
+  background-color: #69b128;
+  padding: 4px 14px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.mobile {
+  height: 370px;
+  width: 200px;
+  background-color: rgba(105, 177, 40, 0.5);
+  border-radius: 15%;
+}
+
+.foot1 {
+  height: 16px;
+  width: 16px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.foot2 {
+  height: 15px;
+  width: 72px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.fott {
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  /* margin-bottom: -4px; */
+}
+
+.sidebarhover :hover {
+  /* background-color: rgba(105, 177, 40, 0.5); */
+  /* padding: 3px 6px; */
+  color: #69b128;
+  /* border-radius: 1px;
+    display: block; */
+}
+
+.addButtonStyle {
+  color: #69b128;
+}
+
+.lab-technician-patient-info p {
+  margin-bottom: 0.5rem;
+}
+
+.technician-modal label {
+  font-weight: 500;
+}
+
+.technician-sign label {
+  display: inline-block;
+  background-color: #69b128;
+  color: white;
+  padding: 4px;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.technician-sign-preview {
+  height: 50px;
+  width: 120px;
+  border: 0.5px solid #cac7d3;
+  border-radius: 5px;
+}
+
+.technician-sign-preview img {
+  height: 50px;
+  width: 120px;
+}
+
+.technician-sign-preview-letter {
+  height: 98px;
+  width: 142px;
+  border: 0.5px solid #cac7d3;
+  border-radius: 5px;
+}
+
+.technician-sign-preview-letter img {
+  height: 93px;
+  width: 135px;
+}
+
+.lab-report-table {
+  min-height: 250px;
+}
+
+.great-lab-print-report-view p {
+  margin-bottom: 0.1rem;
+}
+
+.great-lab-print-report-view {
+  border: 1px solid #cac7d3;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.great-lab-print-report p {
+  margin-bottom: 0.5rem;
+}
+
+.great-lab-print-report {
+  display: none;
+}
+
+@media print {
+  .great-lab-print-report {
+    display: block;
+    width: 21cm;
+    height: 29.7cm;
+    /* margin: 0mm 0mm; */
+  }
+
+  .great-lab-print-report-view {
+    margin-bottom: 0.1rem;
+    width: 21cm;
+    height: 29.7cm;
+    border: none;
+  }
+}
+
+/* file upload section */
+.lab-upload-section {
+  border: 2px dashed #cac7d3;
+  width: 400px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.lab-upload-section label {
+  cursor: pointer;
+}
+
+/* file upload section */
+
+/* transaction */
+.tran__card_1 {
+  border: 1px solid #ecaa33 !important;
+  border-right: 6px solid #e8aba4 !important;
+  border-bottom: 2px solid #f1cdc9 !important;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.tran__card_2 {
+  border: 1px solid #f3ca7e !important;
+  border-right: 6px solid #73d480 !important;
+  border-bottom: 2px solid #85eb93 !important;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.tran__card_3 {
+  border: 1px solid #ecaa33 !important;
+  border-right: 6px solid #ab96f7 !important;
+  border-bottom: 2px solid #ab96f7 !important;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.tran__card_4 {
+  border: 1px solid #ecaa33 !important;
+  border-right: 6px solid #006bff !important;
+  border-bottom: 2px solid #006bff !important;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.transaction-card {
+  cursor: pointer;
+}
+
+.transaction-card i {
+  font-size: 25px;
+}
+
+.transaction-card hr {
+  margin: 0.5rem 0;
+}
+
+.new-action-btn {
+  font-size: 1rem !important;
+  background-color: transparent;
+  border: none;
+  color: rgb(105, 103, 103);
+}
+
+/* transaction */
+
+.lab-report-table table tr td {
+  padding: 0px !important;
+  font-size: 16px;
+  line-height: 1 !important;
+  font-family: "Roboto", sans-serif !important;
+}
+.lab-report-details {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.lab-report-table table tr td .p {
+  font-size: 12px !important;
+  line-height: 0.7rem !important;
+  margin-bottom: 0 !important;
+}
+
+.lab-report-details p {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.lab-report-details .invoice-details-value {
+  font-size: 13px;
+  font-weight: 600;
+}
+.report-table-row {
+  position: relative;
+}
+.report-table-row:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Base height of the border */
+  border-bottom: 1px dashed #000; /* Dashed line style */
+  transform: scaleY(0.2); /* Make it appear thinner */
+  transform-origin: center;
+  pointer-events: none; /* Ensure it doesn’t affect interactions */
+}
+.parameter-group-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+.lab-report-print-footer p {
+  line-height: 1rem !important;
+  font-size: 12px !important;
+}
+.lab-report-print-footer hr {
+  margin: 0.5rem 0 !important;
+}
+.parameter-group-container .single-parameter-group {
+  width: 50%;
+}
+
+.customModal {
+  max-width: 500px !important;
+  width: 100% !important;
+  border-radius: 5px;
+}
+
+.plan-report table {
+  width: 100%;
+}
+
+.plan-report table td {
+  border: 1px solid #e5e5e5;
+  font-size: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.report-header-bg {
+  background-color: rgba(233, 236, 239, 1);
+}
+
+.report-header-bg td {
+  font-weight: 700;
+}
+
+.plan-report p {
+  margin-bottom: 3px !important;
+}
+
+.doc-redeem-info p {
+  margin-bottom: 0;
+}
+
+.doc-redeem-info span {
+  display: inline-block;
+  width: 100px;
+  font-weight: 500;
+}
+
+.past_rx_table_technician {
+  width: 100%;
+  /* table-layout: fixed; */
+  text-align: center;
+  /* min-height: 40vh;
+    display: block;
+    overflow-y: scroll; */
+}
+
+.past_rx_table_technician td {
+  border: 1px solid #cac7d3;
+  padding: 2px;
+  font-size: 11px;
+}
+
+.past_rx_table_technician th {
+  border: 1px solid #cac7d3;
+  padding: 3px;
+  background-color: #dedede;
+  font-size: 11px;
+}
+
+.past_rx_table_technician td i {
+  cursor: pointer;
+}
+
+.great-lab-result-print-table {
+  width: 100%;
+}
+
+@media print {
+  .point-report-print-btn {
+    display: none;
+  }
+
+  .plan-report {
+    margin: 20px;
+    padding-top: 20px;
+  }
+}
+
+.lab-report-main-content {
+  min-height: 11.5in;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* .lab-report-print-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */

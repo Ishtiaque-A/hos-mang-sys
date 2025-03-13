@@ -1,0 +1,67 @@
+.pastObservation_Container{
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.observation_box{
+    padding-top: 30px;
+}
+.text1 p{
+    margin-left: 100px;
+}
+.date_box1{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 33px;
+    width: 60%;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.12);
+}
+.number_input{
+    width: 60%;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.12);
+}
+.selector_input{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.12);
+}
+.number_input_two{
+    width: 40%;
+    margin-left: 20%;
+}
+.height_hip_chest{
+    margin-right: 33px;
+}
+.height_hip{
+    margin-right: 50px;
+}
+.hip_chest{
+    margin-right: 8px;
+}
+.weights_container{
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.12);
+}
+.pastObservation_btn{
+    margin-right: 108px;
+    margin-top: 10px;
+}
+.pastObservation_btn_right{
+    float: right;
+    margin-left: 30px;
+    color: gray;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #69B128;
+}
+.pastObservation_btn_left{
+    float: right;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #69B128;
+    border: 1px solid #69B128;
+}

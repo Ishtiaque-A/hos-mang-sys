@@ -1,0 +1,192 @@
+
+ .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .invoiceLink {
+    color: #1a1a1a;
+    text-decoration: none !important;
+  }
+  
+   .MainBody{
+    width: 21cm;  
+    height: 29.7cm; 
+    margin: 0 auto; 
+    color: #555555;
+    background: #FFFFFF; 
+    font-family: Arial, sans-serif; 
+    font-size: 14px; 
+  }
+   
+  .HeaderInvoice {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+  }
+  
+  #logo {
+    float: left;
+    margin-top: 8px;
+  }
+  
+  #logo img {
+    height: 70px;
+  }
+  
+  #company {
+    float: right;
+    text-align: right;
+  }
+  
+  
+  #details {
+    margin-bottom: 50px;
+  }
+  
+  #client {
+    padding-left: 6px;
+    border-left: 6px solid #272727;
+    float: left;
+  }
+  
+  #client .to {
+    color: black;
+  }
+  
+  h2.name {
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  #invoice {
+    float: right;
+    text-align: right;
+  }
+  
+  #invoice h1 {
+    color: #2c2c2c;
+    font-size: 2.4em;
+    line-height: 1em;
+    font-weight: normal;
+    margin: 0  0 10px 0;
+  }
+  
+  #invoice .date {
+    font-size: 1.1em;
+    color: #777777;
+  }
+  
+  .invoiceTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+  }
+  
+  .invoiceTable th,
+  .invoiceTable td {
+    padding: 20px;
+    background: #EEEEEE;
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  
+  .invoiceTable th {
+    white-space: nowrap;        
+    font-weight: normal;
+  }
+  
+  .invoiceTable td {
+    text-align: right;
+  }
+  
+  .invoiceTable td h3{
+    color: #DDDDDD;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0 0 0.2em 0;
+  }
+  
+  .invoiceTable .no {
+    color: rgb(37, 37, 37);
+    font-size: 1.2em;
+    background: #DDDDDD;
+  }
+  
+  .invoiceTable .desc {
+    text-align: left;
+  }
+  
+  .invoiceTable .unit {
+    background: #DDDDDD;
+  }
+  
+  /* .invoiceTable .qty {
+  }
+   */
+  .invoiceTable .total {
+    background: #DDDDDD;
+    color: black;
+  }
+  
+  .invoiceTable td {
+    font-size: 1.2em;
+  }
+  
+  .invoiceTable tbody tr:last-child td {
+    border: none;
+  }
+  
+  .invoiceTable tfoot td {
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border-bottom: none;
+    font-size: 1.2em;
+    white-space: nowrap; 
+    border-top: 1px solid #AAAAAA; 
+  }
+  
+  .invoiceTable tfoot tr:first-child td {
+    border-top: none; 
+  }
+  
+  .invoiceTable tfoot tr:last-child td {
+    color: black;
+    font-size: 1.4em;
+    border-top: 1px solid #DDDDDD; 
+  
+  }
+  
+  .invoiceTable tfoot tr td:first-child {
+    border: none;
+  }
+  
+  #thanks{
+    font-size: 2em;
+    margin-bottom: 50px;
+  }
+  
+  #notices{
+    padding-left: 6px;
+    border-left: 6px solid black;  
+  }
+  
+  #notices .notice {
+    font-size: 1.2em;
+  }
+  
+  footer {
+    color: #777777;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #AAAAAA;
+    padding: 8px 0;
+    text-align: center;
+  }
+  
+  

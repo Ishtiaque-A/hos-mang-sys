@@ -1,0 +1,273 @@
+.immunisation-container{
+    background: #FFFFFF;
+    /* width: 90%; */
+    margin: auto;
+    border-radius: 5px;
+}
+
+.immunisation-searchbox{
+    position: relative;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+}
+.immunisation-searchbox p{
+  font-size: 17px;
+  margin-left: 48px;
+}
+.immunisation-searchIcon{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -3%;
+    color:#706F6F;
+}
+.immunisation-search{
+    width: 118%;
+    margin-left: -5%;
+    padding: 8px 25px;
+    border-radius: 30px;
+    color: #BABABA;
+    box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.18);
+}
+.availableVaccine-btn{
+    margin-left: 85px;
+    background: #EAEAEA;
+    padding: 3px 28px;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+}
+.table_scroll{
+    height: 218px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.immunisation-table{
+    font-family: arial, sans-serif;
+    /* width: 90%; */
+    /* margin-top: 50px; */
+    margin: auto;
+    cursor: pointer;
+   
+}
+
+.immunisation-table td{
+    border: 1px solid #dddddd;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+.immunisation-table .tableHead{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    color: #363636;
+    background-color: #E0E0E0;
+}
+.billing-provider-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.billing-provider-box p{
+    padding-top: 6px;
+    margin-right: -65px;
+}
+.immunisation-checkbox{
+    margin-top: 18px;
+}
+.immunisation-checkbox-text{
+    margin-left: 10px;
+}
+.billing-provider-container{
+    margin-top: 7px;
+}
+.billing-select-box{
+    width: 70%;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.given-select-box{
+    width: 70%;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 13px;
+    margin-right: 27px;
+    border-radius: 5px;
+}
+.given-provider-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.given-provider-box span{
+    margin-top: -5px;
+    margin-left: 65px;
+}
+
+.seq-textContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.seq-textContainer p{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.date__field{
+    height: 10px;
+    width: 50%;
+}
+.batch-expiryContainer{
+    display: flex;
+    margin-left: 4px;
+}
+
+.batch-expiryContainer p{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 41px;
+}
+.batch-select-box{
+    width: 48%;
+    height: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.batch-details-container{
+    display: flex;
+    justify-content: center;
+    margin-left: -2px;
+}
+.batch-details-checkbox{
+    margin-top: 12px;
+}
+.batch-details-container p{
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.siteContainer{
+    display: flex;
+    margin-left: -50px;
+}
+.siteContainer p{
+    position: relative;
+    margin-left: 78px;
+    margin-top: 7px;
+}
+.site-select-box{
+    position: absolute;
+    width: 47%;
+    height: 38px;
+    margin-left: 111px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.route-container{
+    margin-top: 30px;
+}
+.route-box, .date-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 45px;
+}
+.route-box p{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -165px;
+}
+.route-select-box{
+    height: 40px;
+    width: 50%;
+    margin-left: 83px;
+}
+.batch_date__field{
+    height: 10px;
+    width: 48%;
+}
+.batch_text{
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+.serial-box-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.serial-box{
+    width: 78%;
+    height: 30px;
+    margin-left: 119px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.serial-box-container p{
+    position: absolute;
+    margin-left: -67%;
+}
+.comment-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.comment-container p{
+    position: absolute;
+    margin-right: 69%;
+}
+.comment-box{
+    width: 79.5%;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left: 101px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.checkbox-container{
+   margin-left: 17%;
+   margin-top: 9px;
+}
+.send-reminder-text{
+    margin-left: 10px;
+}
+.send-reminder-checkbox{
+    height: 12px;
+    width: 12px;
+}
+.expiry-box p{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.batch-date-boxx{
+    height: 40px;
+    width: 60%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.immunisation-btn{
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+.immunisation-save-btn{
+    float: right;
+    color: #ffffff;
+    margin-right: 20px;
+    background: #69B128;
+    border: 1px solid #69B128;
+    padding: 5px 18px;
+    border-radius: 5px;
+    
+}
+
+.immunisation-cancel-btn{
+    float: right;
+    color: gray;
+    margin-right: 80px;
+    border: 1px solid #69B128;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.active-row{
+    background-color: #f1f1f1;
+}

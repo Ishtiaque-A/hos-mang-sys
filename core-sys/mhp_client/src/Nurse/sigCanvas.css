@@ -1,0 +1,9 @@
+
+.signatureCanvas {
+    /* border: 1px solid #CED4DA !important; */
+    border-radius: 4px;
+    width: 100%;
+    min-height: 100px;
+    height: 26px;
+  }
+  

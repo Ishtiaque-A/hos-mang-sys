@@ -1,0 +1,7 @@
+.ReactModal__Content.ReactModal__Content--after-open.appointment_type_modal{
+    top: 27% !important;
+    left: 10% !important;
+    height: 26vh;
+    width: 35vw;
+    z-index: 10 !important;
+}

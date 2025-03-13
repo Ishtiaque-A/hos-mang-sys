@@ -1,0 +1,80 @@
+/* .btn:first-child:hover,
+:not(.btn-check)+.btn:hover {
+    border: 1px solid rgb(190, 190, 190) !important;
+} */
+
+/* Define the styles for the scrollbar */
+.simple-scrollbar {
+  padding: 5px;
+}
+
+.simple-scrollbar::-webkit-scrollbar {
+  width: 7px;
+}
+
+.simple-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 6px;
+}
+
+.simple-scrollbar::-webkit-scrollbar-track {
+  background-color: #fcfcfc;
+}
+
+/* For Firefox */
+.simple-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #cccccc #fcfcfc;
+}
+
+.printable {
+  display: none;
+}
+
+@media print {
+  .printable {
+    display: block;
+  }
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+
+.react-datepicker__input-container {
+  border: 1px solid lightgray !important;
+  padding: 5px 14px !important;
+  border-radius: 5px !important;
+  width: 100% !important;
+}
+
+.react-datepicker__input-container input {
+  width: 100% !important;
+  border: none !important;
+}
+
+.react-datepicker__input-container
+  input.react-datepicker-ignore-onclickoutside {
+  width: 100% !important;
+  border: none !important;
+}
+
+.resource-hover-able-class-patient-education {
+  background-color: white;
+  transition: 300ms all ease-in-out;
+}
+
+.resource-hover-able-class-patient-education:hover {
+  background-color: lightgray;
+}
+
+.core-button-class {
+  color: white;
+  /* background-color: #69b128; */
+  cursor: pointer;
+}
+
+.core-button-class:disabled {
+  background-color: #cccccc !important;
+  cursor: not-allowed;
+}

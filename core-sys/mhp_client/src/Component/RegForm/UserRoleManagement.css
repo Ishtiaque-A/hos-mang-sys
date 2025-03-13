@@ -1,0 +1,120 @@
+.user-role-header {
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.user-role-header .col-form-label {
+    font-weight: 600;
+}
+
+.user-role-header-user img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-role-header-user span {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.user-role-container .tab-content {
+    border: none;
+    border-top: 0;
+    padding: 0.2rem 0.1rem;
+    text-align: justify;
+}
+
+.user-role-container .nav-pills {
+    border-bottom: none !important;
+    padding-bottom: 1rem;
+}
+
+.user-role-content-head {
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+}
+
+.user-role-sidebar .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff!important;
+    border-left: none !important;
+    background-color: transparent !important;
+    background: #69B128 !important;
+    font-size: 14px !important;
+    text-align: left;
+}
+.user-role-sidebar .nav-pills .nav-link {
+    border: none;
+    padding: 0.5rem 1rem !important;
+}
+.user-role-sidebar .nav-link {
+    font-size: 14px;
+    color: #495057 !important;
+    background-color: #fff;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.15) !important;
+    text-align: left ;
+}
+.user-role-sidebar .nav-link img{
+    height: 18px;
+}
+.user-role-content-table {
+    
+}
+.user-role-content-table .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #363636 !important;
+    border-left: none !important;
+    background-color: #fff !important;
+    font-size: 13px !important;
+    border-bottom: 2px solid #69B128 !important;
+    font-weight: 500;
+}
+
+.user-role-content-table .nav-pills .nav-link {
+    font-size: 13px !important;
+    padding: 0.2rem 1.75rem;
+    font-weight: 500;
+}
+
+.user-role-content-table .nav-pills {
+    border-bottom: none !important;
+    padding-bottom: 0.1rem !important;
+}
+
+.user-role-content-table .nav-pills .nav-item {
+    margin-right: 0.1rem !important;
+}
+.user-role-content-table .form-check .form-check-label {
+    margin-left: 0.1rem;
+}
+.user-role-content-table table{
+    width: 100%;
+    text-align: center;
+}
+.user-role-content-table table thead th{
+    font-weight: 500;
+}
+.user-role-content-table table th{
+    border: 1px solid #E8E8E8;
+    padding : 5px 10px;
+}
+.user-role-content-table table td{
+    border: 1px solid #E8E8E8;
+    padding : 5px 10px;
+}
+
+.user-role-table-first-column {
+    text-align: left ;
+}
+.user-role-table-first-column div{
+    margin-left: 25px;
+}
+label.AllUser {
+    font-weight: 600;
+}
+.forAll {
+    text-transform: capitalize;
+}
+.patient-table .MuiFormControl-root{
+    border: none !important;
+}

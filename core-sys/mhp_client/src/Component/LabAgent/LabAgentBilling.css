@@ -1,0 +1,324 @@
+.sidebar-link {
+  height: 175px;
+}
+
+.list-head {
+  font-size: 14px;
+}
+
+.custom-bg-color {
+  background-color: #69b128;
+}
+
+.input-control-area {
+  position: relative;
+}
+
+.input-control-area input {
+  width: 700px;
+  display: block;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 8px 10px 8px 30px;
+}
+
+.input-control-area input:focus {
+  outline: none;
+}
+
+.search-bar {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+/* suggestion container styles */
+.suggestion-container {
+  background-color: #fff;
+  color: #000;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  max-height: 250px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.activeTest {
+  background-color: #80808034;
+}
+
+.acive-element:hover {
+  background-color: #80808034;
+  cursor: pointer;
+}
+
+.img-container img {
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.info-head {
+  /* font-size: 15px; */
+  font-weight: 500;
+  margin-bottom: 3px;
+  color: #000 !important;
+}
+
+.info-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: #55b600;
+}
+
+.radio-container {
+  position: relative;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 30px;
+  margin: 0 10px;
+  background-color: #696969;
+}
+
+.icon {
+  width: 30px;
+}
+
+.table-head {
+  background-color: #eeffde;
+}
+
+.payment-container {
+  border: 1px solid #80808066;
+  padding: 0 10px;
+}
+
+.cash-icon {
+  width: 40px;
+}
+
+.debit-credit-icon {
+  width: 110px;
+}
+
+.payment-icon {
+  width: 160px;
+}
+
+/* print css lab agent billing */
+.lab-agent-billing-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.pharmacy-header {
+  text-align: center;
+}
+
+.pharmacy-header p {
+  margin: 0;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-cost {
+  padding-right: 330px;
+}
+
+.balance-calculation {
+  padding-right: 40px;
+}
+
+.special-discount {
+  margin-top: -18px;
+  margin-bottom: 0;
+}
+
+.cart-table {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-table tr td {
+  border: 0 !important;
+  padding: 3px;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.cart-table-body {
+  text-align: left;
+}
+
+.cart-table tr td i {
+  cursor: pointer;
+}
+
+.cart-table-head td {
+  font-weight: 500;
+  border: none !important;
+}
+
+.cart-table-head td input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cart-table-head {
+  border-bottom: 2px solid #ced4da;
+  background-color: #e9f3df;
+  border-radius: 15px;
+}
+
+@media all {
+  .lab-agent-billing-container {
+    display: none;
+  }
+}
+
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+
+  title {
+    display: none;
+  }
+}
+
+.print-send-test-to-lab {
+  display: none;
+}
+
+@media print {
+  .lab-agent-billing-container {
+    display: block;
+  }
+
+  .print-send-test-to-lab {
+    display: block;
+  }
+}
+
+.lab-agent-search .jgzQlk > .wrapper {
+  position: static !important;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #dfe1e5;
+  border-radius: 5px !important;
+  background-color: white;
+  color: #212121;
+  font-size: 16px;
+  font-family: Arial;
+  z-index: 0 !important;
+}
+
+.lab-agent-search .jgzQlk {
+  position: static !important;
+  height: 100% !important;
+}
+
+.lab-agent-search .fDbOPw {
+  min-height: 35px !important;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.money-amount-box {
+  padding: 5px;
+  width: 80px;
+  box-shadow: 0px 4.62654px 10.7953px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.money-receipt-head {
+  padding: 7px;
+  box-shadow: 0px 4.62654px 10.7953px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: 500;
+  display: block;
+}
+
+.money-receipt-container p {
+  margin-bottom: 0rem !important;
+  font-size: 14px;
+}
+
+.receipt-details-value {
+  color: #69b128;
+  font-size: 14;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.receipt-pay-info h6 {
+  color: #69b128;
+}
+
+.bottom-nb {
+  font-size: 12px;
+}
+
+.receipt-end-line {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.money-receipt-container {
+  display: none;
+}
+
+@media print {
+  .money-receipt-container {
+    display: block;
+  }
+}
+
+.lab-agent .btn:disabled,
+fieldset:disabled .btn {
+  border-color: transparent !important;
+}
+
+.agent-active-test {
+  background-color: #d1c4c4;
+}
+
+.lab-agent-search .fxaeSm > .wrapper {
+  z-index: 0 !important;
+  position: static !important;
+}
+
+.lab-agent-search .fxaeSm {
+  max-height: 300px !important;
+  height: 100% !important;
+}
+
+.lab-agent-search .css-2613qy-menu {
+  z-index: 100;
+}
+
+.payment-area-lab-billing {
+  z-index: -999999;
+}

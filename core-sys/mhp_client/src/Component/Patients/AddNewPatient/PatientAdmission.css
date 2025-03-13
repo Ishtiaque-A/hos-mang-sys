@@ -1,0 +1,28 @@
+.extraPadding {
+  padding: 18px !important;
+}
+.react-datepicker__input-container {
+  border-radius: 5px !important;
+  /* border: 1px solid #ced4da !important; */
+  padding: 1px !important;
+}
+
+.button1 {
+  background: none;
+  border: 1px solid gray;
+  font-size: medium;
+  text-transform: capitalize;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.button1:hover {
+  background: rgb(160, 160, 160);
+  box-shadow: 1px 1.5px 2px gray;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid transparent;
+}

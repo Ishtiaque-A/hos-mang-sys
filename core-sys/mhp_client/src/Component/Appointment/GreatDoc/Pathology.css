@@ -1,0 +1,31 @@
+.favorite_test_box {
+    border: 1px solid gray;
+}
+
+.billing_radio_box {
+    border: 1px solid gray;
+    padding-left: 8px;
+}
+
+/* .direct_bill{
+    padding-top: -10px !important;
+} */
+
+/* past visit css  */
+.past-visit-table {
+    max-height: 40vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* past visit css  */
+
+.print_pathology{
+  display: none;
+}
+
+@media print {
+    .print_pathology {
+        display: block;
+    }
+}

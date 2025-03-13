@@ -1,0 +1,29 @@
+.recall_test{
+    color:rgb(122, 184, 247)
+}
+.step1{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    background-color: #addff3;
+    padding-left: 5px;
+}
+.step2{
+    background-color: #addff3;
+    ;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+.color-text{
+    color:#48b4e0
+}
+.font_style{
+    font-style: italic;
+}
+.significant_position{
+    margin-left: 33%;
+}
+.significant_container{
+    padding: 8px;
+    background-color: #c1e6f5;
+}

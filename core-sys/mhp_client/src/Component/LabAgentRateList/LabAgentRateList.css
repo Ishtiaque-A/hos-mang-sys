@@ -1,0 +1,62 @@
+.link-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.link-name {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.custom-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.active-agent-category {
+  background-color: #69b128;
+  color: #fff;
+}
+
+.print-rate-list-table {
+  display: none;
+}
+
+@media print {
+  .print-rate-list-table {
+    display: block;
+    width: 210mm;
+    margin: 0 auto;
+    table-layout: auto;
+  }
+}
+
+.hr {
+  margin: 0.5rem 0 !important;
+}
+
+.lab-sample-sticker {
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, .25);
+  border-radius: 8px;
+}
+
+.lab-sample-sticker p {
+  margin-bottom: 0 !important;
+}
+
+.lab-sample-sticker-container {
+  display: none;
+}
+
+@media print {
+  .lab-sample-sticker-container {
+    display: block;
+  }
+}

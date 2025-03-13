@@ -1,0 +1,48 @@
+ .card-otp {
+    width: 370px;
+    padding: 15px;
+    border-radius: 20px;
+    background: #fff;
+    border: none;
+    height: 390px;
+    position: relative
+}
+
+.card-body-otp {
+    background: #eee;
+    height:680px
+}
+
+.mobile-text {
+    color: #989696b8;
+    font-size: 15px
+}
+
+.otp-bg-img{
+    padding: 0px; 
+    margin: 0px;
+    height: 660px;;
+    width: 100%;
+    background-image: url(../../Images/reg_background.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: transparent 0.7%;
+   
+}
+
+.form-control {
+    margin-right: 12px
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ff8880;
+    outline: 0;
+    box-shadow: none
+}
+
+.cursor {
+    cursor: pointer
+} 

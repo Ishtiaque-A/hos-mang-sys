@@ -1,0 +1,19 @@
+.inside{
+    width: 60px;
+    height: 40px;
+}
+.nav-toggle-btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.doctor-info-container .nav-pills .nav-item {
+    margin-right: 0rem;
+}
+.doctor-info-container .nav-pills .nav-link {
+    border: 1px solid #CED4DA;
+    padding: 0.3rem 1rem;
+}
+.nav-pills {
+    border-bottom: none; 
+    padding-bottom: 0rem;
+}

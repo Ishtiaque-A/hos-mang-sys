@@ -1,0 +1,50 @@
+.family-history-container .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #0dcaf0 !important;
+    border-left: none !important;
+    border-bottom: 2px solid #0dcaf0 !important;
+    background-color: transparent !important;
+    background: #F4F6F9;
+    font-size: 15px !important;
+}
+
+
+.family-history-container .nav-pills .nav-link {
+    cursor: pointer;
+}
+
+.family-history-container .form-check-input {
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: 0.6em;
+    vertical-align: top;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.family-history-container .profile-nav .nav-link {
+    font-size: 15px;
+    color: #495057 !important;
+}
+
+.patient-history .nav-pills {
+    border-bottom: none !important;
+    /* padding-bottom: -2rem !important; */
+}
+
+.family_medical_history .checkbox-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.family_medical_history .form-group label {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    vertical-align: top;
+    margin-bottom: 0.5rem;
+    padding-left: 38px;
+    margin-top: 3px;
+}
+.family_medical_history .form-group {
+    margin-bottom: 0rem !important ;
+}

@@ -1,0 +1,249 @@
+/* history examination */
+.HistoryAndExaminationModal {
+  position: absolute;
+  top: 245px;
+  left: 21%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 500px;
+  background: #f3f2ef;
+  padding: 10px;
+  margin-left: 38%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 1025px) {
+  .HistoryAndExaminationModal {
+    position: absolute;
+    top: 28%;
+    left: 18%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 70%;
+    background: #f3f2ef;
+    padding: 10px;
+    margin-left: 38%;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+}
+
+.eye-spack-popup {
+  width: 965px;
+  margin-right: 3px;
+}
+
+.responsive-row .row {
+  margin-top: 0 !important;
+}
+
+@media screen and (max-width: 900px) {
+  .Modal {
+    position: absolute;
+    top: 32%;
+    left: 12%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 460px;
+    padding: 10px;
+    /* margin-left: 38%; */
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .MenuModal {
+    position: absolute;
+    top: 39%;
+    left: 22%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 240px;
+    padding: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: #fff;
+  }
+
+  .PatientEducationModal {
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    height: 70vh;
+    width: 87%;
+    transform: translate(-50%, -50%);
+    overflow-x: hidden;
+    background-color: #fff;
+    padding: 5px;
+  }
+
+  .cns-container .nav-pills .nav-link {
+    font-size: 12px !important;
+    padding: 0.2rem 1rem;
+    font-weight: 500;
+  }
+
+  .form-control {
+    font-size: 0.8rem;
+  }
+
+  /* history and examination */
+  .HistoryAndExaminationModal {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 460px;
+    padding: 10px;
+    /* margin-left: 38%; */
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .history-nav-img {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 7px;
+    width: 7px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 11px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(15px);
+  }
+
+  .he-history ul li p {
+    color: #363636;
+    margin-bottom: 0.1rem !important;
+    font-size: 11px;
+    word-wrap: break-word;
+  }
+
+  .exam-bg-white p {
+    margin-bottom: 0.1rem !important;
+    font-size: 11px;
+  }
+
+  .history-responsive .row > * {
+    margin-top: 0 !important;
+  }
+
+  .slider:after {
+    margin-left: 8px;
+  }
+
+  input:checked + .slider:after {
+    margin-left: -8px;
+  }
+
+  .spiratory-result label {
+    color: #363636;
+    margin-top: 3px;
+    font-size: 11px;
+  }
+
+  .question-container .accordion-button {
+    padding: 3px 5px !important;
+  }
+
+  .gestro hr {
+    margin: 0.5rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 0.25;
+  }
+
+  .history-conatiner h6 {
+    font-size: 12px !important;
+  }
+
+  .history-conatiner label {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .ear-popup {
+    width: 388px;
+  }
+
+  .ent-container .form-check .form-check-label {
+    font-size: 11px !important;
+  }
+
+  .ent-container .form-check {
+    min-height: 1rem;
+    margin-top: 1px;
+    margin-bottom: 5px;
+  }
+
+  .eye-spack-popup {
+    width: 688px;
+    margin-right: 3px;
+  }
+
+  .mus-container .nav-pills .nav-link {
+    font-size: 12px !important;
+    padding: 0.2rem 0.5rem;
+    font-weight: 500;
+  }
+
+  .phq-table td {
+    font-size: 11px;
+  }
+
+  .kio li {
+    font-size: 11px;
+  }
+
+  .form-select {
+    font-size: 11px !important;
+  }
+
+  .k10-question {
+    font-size: 11px;
+    margin-bottom: 0;
+  }
+
+  .k10-modal ol,
+  ul {
+    padding-left: 1rem;
+  }
+
+  .phq-value p,
+  li {
+    font-size: 11px;
+  }
+}

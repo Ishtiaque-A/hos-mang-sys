@@ -1,0 +1,33 @@
+.set-up-btn {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    
+    color:#495057 !important;
+}
+.set-up-btn a {
+    font-size: 12px !important;
+    color:#495057;
+}
+.setup-list {
+    padding-left: 0 !important;
+    list-style: none;
+}
+.setup-list li {
+    font-size: 13px !important;
+}
+.active-menu {
+    /* color: rgb(0, 70, 122)  !important;
+    border-left: 2px solid rgb(0, 70, 122) ; */
+    color: #0dcaf0 !important;
+    border-left: 2px solid #0dcaf0;
+}
+.menu-icon {
+    /* margin-left: 6px; */
+    margin-right: 12px;
+}
+.add-dashboard {
+    height: 95vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}

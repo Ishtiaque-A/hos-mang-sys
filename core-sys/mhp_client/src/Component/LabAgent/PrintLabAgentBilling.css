@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.invoice-print {
+    font-family: 'Kanit', sans-serif;
+}
+
+.invoice-pharmacy-details p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.invoice-pharmacy-details h5 {
+    margin-bottom: 0;
+}
+
+.invoice-date p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.invoice-creator p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.branding-section p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.invoice-item-table table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.invoice-item-table table tr td {
+    font-size: 13px;
+    padding: 2px 5px;
+}
+
+.invoice-border-dashed {
+    border-bottom: 1px dashed #363636;
+}
+
+.invoice-border-dashed-top {
+    border-top: 1px dashed #363636;
+}
+
+.sales-invoice {
+    display: none;
+}
+
+@media print {
+    .sales-invoice {
+        display: block;
+    }
+}
+
+/* All invoice container  */
+.all-invoice-container table {
+    width: 100%;
+}
+
+.all-invoice-container .all-invoice-thead {
+    border-bottom: 2px solid #ced4da;
+    background-color: #E9F3DF;
+    border-radius: 15px;
+}
+
+.all-invoice-container tr {
+    cursor: pointer
+}
+
+.agent-details p {
+    margin-bottom: 0;
+}
+
+.sticker-modal-lab .form-check {
+    margin-top: 2px !important;
+}
+
+/* All invoice container  */

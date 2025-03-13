@@ -1,0 +1,64 @@
+.login-bg-img {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../Images/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent 0.7%;
+}
+
+.form-control {
+  border-color: #69b128;
+}
+
+#gridCheck {
+  background-color: #69b128;
+}
+
+.text-login,
+.text-register,
+.forgot-password {
+  color: #69b128;
+}
+
+/* .border-end{
+    height:720px;
+    box-shadow: 5px 0px 0px grey;
+} */
+
+h3.Intigra {
+  font-family: auto;
+}
+
+.keepMeSiginIn {
+  margin-top: 5px;
+}
+
+.form-control {
+  border-color: #cac7d3 !important;
+  line-height: 1 !important;
+  height: 27px;
+  padding: 0rem 0.5rem !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 0.15rem rgb(13 110 253 / 25%);
+}
+
+i.eyeBtn {
+  padding: 1px 9px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: .375rem;
+  cursor: pointer;
+}

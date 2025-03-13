@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/storage
+/public/images
+/public/labAgent/*.key
+/public/labotory/*.key
+/public/
+/storage/*.key
+/images/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

@@ -1,0 +1,67 @@
+{
+    "explorer.confirmDelete": false,
+    // "diffEditor.wordWrap": "off",
+    "terminal.integrated.cursorWidth": 2,
+    "tailwindCSS.emmetCompletions": true,
+    "editor.accessibilitySupport": "off",
+    "github-enterprise.uri": "vscode://vscode.github-authentication/did-authenticate?windowid=1&code=343b18899a44c937fbba&state=68480d46-cb6c-467d-ab99-caee674733a4",
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "vscode-icons",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    // "editor.wordWrap": "off",
+    "npm.keybindingsChangedWarningShown": true,
+    "workbench.editorAssociations": {
+        "*.gz": "default"
+    },
+    "workbench.colorTheme": "Learn with Sumit Official Theme",
+    "git.terminalGitEditor": true,
+    "git.terminalAuthentication": false,
+    "cSpell.userWords": [
+        "Ecommerce",
+        "Opps"
+    ],
+    "editor.formatOnSave": true,
+    "git.suggestSmartCommit": false,
+    "[typescriptreact]": {
+        "breadcrumbs.showArrays": true,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "chatgpt.lang": "en",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontSize": 16,
+<<<<<<< HEAD
+    "workbench.activityBar.location": "side",
+=======
+    "workbench.activityBar.location": "default",
+>>>>>>> mhp_web/merge-branch-repo1
+    "cmake.showOptionsMovedNotification": false,
+    "codeium.enableConfig": {
+        "*": true,
+        "properties": true
+    },
+    "editor.experimentalWhitespaceRendering": "font",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code",
+    "editor.codeLensFontFamily": "Fira Code",
+    "editor.fontWeight": "500",
+    "terminal.integrated.fontWeight": "500",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.unicodeVersion": "11"
+}

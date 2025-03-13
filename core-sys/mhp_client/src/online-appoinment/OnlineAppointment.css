@@ -1,0 +1,49 @@
+.doc-app-schedule-slots{
+    /* height: 11rem; */
+    text-align: center;
+}
+
+.doc-app-schedule-slots .nav-pills .nav-link{
+    font-size: 13px !important;
+}
+
+.doc-app-schedule-slots .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #69B128 !important;
+    background-color: transparent !important;
+    background: #f4f6f9;
+    font-size: 13px !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.doc-app-schedule-slots .slots-pill {
+    border: 1px solid gray;
+    padding: 4px;
+    font-size: 11px;
+    width: 56px;
+    border-radius: 6px;
+    margin: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+.doc-app-schedule-slots .slots-pill:hover {
+   background: #69B128;
+   color: #f4f6f9;
+   border: none;
+   
+}
+.slots-pill.active {
+    background: #69B128;
+    color: #f4f6f9;
+    border: none;
+}
+.slots-pill.booked {
+    background: #ff7345;
+    border: none;
+}
+
+p.no-data-found-slots {
+    color: red;
+    margin-top: 15%;
+    margin-left: 25%;
+}

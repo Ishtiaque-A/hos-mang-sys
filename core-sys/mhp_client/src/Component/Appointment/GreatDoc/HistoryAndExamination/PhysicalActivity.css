@@ -1,0 +1,57 @@
+
+.physical__current__bg {
+    background-color: #f7f5f2;
+    color: #363636;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 5%) !important;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+.current__text{
+    color:#393C40;
+}
+.current__excercise__level{
+    background-color: #fff;
+    color: #363636;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 5%) !important;
+    border-radius: 5px;
+}
+.current__excercise__level p {
+    margin-bottom: 0.1rem !important;
+    font-size: 12px;
+}
+.current__bg__white{
+    background-color: #fff;
+    color: #363636;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 5%) !important;
+    border-radius: 5px;
+    /* margin-left: 12px; */
+}
+.current__bg__white p {
+    margin-bottom: 0.1rem !important;
+    font-size: 12px;
+}
+.current__hr{
+    margin: 0px 0px !important;
+}
+.btn__cancel {
+    background: transparent;
+    color: #69B128;
+    border: 1px solid #69B128;
+    border-radius: 8px;
+    padding: 8px 40px;
+    font-size: 12px;
+    
+}
+.btn__save {
+    background: #69B128;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 50px;
+    margin-bottom: 7px;
+    font-size: 12px;
+}
+.date__input{
+    padding: 0px 20px;
+    border: none;
+}

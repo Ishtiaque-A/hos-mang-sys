@@ -1,0 +1,1063 @@
+.new-patient-entry .tab-content {
+  border: none !important;
+  padding: 0rem 0rem !important;
+}
+
+.reg-bg-img {
+  padding: 0px;
+  margin: 0px;
+  height: 1200px;
+  width: 100%;
+  background-image: url(../../../Images/reg_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent 0.7%;
+}
+
+.bg-light {
+  background-color: transparent;
+  filter: opacity(0.9) drop-shadow(0 0 0 white);
+}
+
+.font-size-patient {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.font-size-patient .card .card-body {
+  padding: 0.2rem 1.25rem;
+}
+
+.form-control {
+  border-color: #cac7d3 !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 0.15rem rgb(13 110 253 / 25%);
+}
+
+.span_desc {
+  font-size: 11px;
+}
+
+.profile_label,
+.profile_data {
+  font-size: 13px;
+  font-weight: unset;
+  padding: 5px;
+}
+
+.add-doctor-nav button {
+  font-size: 14px !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #0dcaf0 !important;
+  border-left: 2px solid #0dcaf0 !important;
+  background-color: transparent !important;
+  background: #f4f6f9;
+  font-size: 15px !important;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0 !important;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: #495057 !important;
+}
+
+thead {
+  border: 1px solid #cac7d3;
+}
+
+th {
+  border: 1px solid #cac7d3;
+}
+
+.patient-table th {
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+.patient-table td {
+  font-size: 0.9em !important;
+}
+
+.action-btn {
+  padding: 1px !important;
+}
+
+.action-btn i {
+  font-size: 13px !important;
+}
+
+.all-patients {
+  min-height: 85vh !important;
+}
+
+.MTableToolbar-spacer-7 {
+  flex: 0 0 0% !important;
+}
+
+.status-icon {
+  font-size: 7px !important;
+  margin-right: 3px !important;
+}
+
+.status-icon-active {
+  color: green !important;
+}
+
+.status-inactive-icon {
+  color: red !important;
+}
+
+image {
+  font-size: 7px;
+}
+
+.data-table-btn {
+  margin-top: 10px;
+  font-size: 12px !important;
+}
+
+.patient-table .MuiPaper-rounded {
+  border-radius: 10px;
+}
+
+.patient-table .MuiFormControl-root {
+  border: 1px solid #ddd !important;
+  border-radius: 20px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  margin-right: 10px !important;
+  padding-top: 0 !important;
+  font-size: 10px !important;
+  width: 150px !important;
+}
+
+.patient-table .MuiInput-underline:before {
+  border-bottom: none !important;
+}
+
+/* .MuiTouchRipple-root {
+    
+} */
+.patient-table .MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 2px !important;
+  margin-right: 10px !important;
+}
+
+.patient-table .MuiInputBase-root {
+  font-size: 0.8rem !important;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1em !important;
+  letter-spacing: 0.00938em;
+}
+
+.filter-selected {
+  border: 1px solid #ddd !important;
+  border-radius: 20px !important;
+}
+
+.active-data {
+  color: #0dcaf0 !important;
+  border-bottom: 2px solid #0dcaf0;
+}
+
+.patient-table {
+  height: 90% !important;
+}
+
+/* health card css */
+.health-card-bg-container {
+  background-image: url("../../../Images/health-card-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px;
+}
+
+.health-card-bg-container .health-logo {
+  width: 177px;
+  height: 80px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.health-card-bg-container .my-health {
+  width: 220px;
+  margin-top: 15px;
+  height: 61px;
+  margin-right: 54px;
+}
+
+.health-patient {
+  width: 130px;
+  height: 140px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+  margin-top: -45px;
+  margin-left: 30px;
+}
+
+.qr-code {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.health-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.health-content .patient-name {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #4a4a4a;
+}
+
+.health-content .hid {
+  margin-left: 2px;
+  color: #6f6f6f;
+  font-size: 16px;
+}
+
+.health-bicon {
+  width: 30px;
+  margin-left: 5px;
+  color: red;
+  font-weight: bold;
+  font-size: 22px !important;
+}
+
+.health-details span {
+  font-size: 18px;
+}
+
+.health-data-title {
+  color: #6f6f6f;
+  font-size: 15px;
+  margin-bottom: 0.2rem !important;
+}
+
+.health-data {
+  border-right: 2px dashed #888888;
+  margin-right: 10px;
+}
+
+.health-card-back-bg {
+  height: 100px;
+  background: #206493;
+}
+
+.card-back-content p {
+  font-size: 20px;
+}
+
+.card-back-content {
+  padding-left: 80px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* health card css */
+
+/* patient profile css */
+
+.view-icon {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.icon-btn {
+  border: none !important;
+  background: #fff;
+  color: #000 !important;
+}
+
+.icon-btn a {
+  color: #000 !important;
+}
+
+.appointment-container {
+  max-height: 83vh;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/* scroll style  for patient profile  */
+.appointment-container::-webkit-scrollbar {
+  width: 7px;
+}
+
+.appointment-container::-webkit-scrollbar-track {
+  background: #fff !important;
+  border-left: 1px solid #ddd;
+}
+
+.appointment-container::-webkit-scrollbar-thumb {
+  background: #918f8f !important;
+  border-radius: 10px !important;
+  padding: 2px;
+}
+
+/* scroll style   */
+.appointment-counter {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.today-container p {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.appointment-heading {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.appointment-date {
+  margin-right: 70px;
+}
+
+.personal-info {
+  padding: 5px;
+}
+
+.p-info-header {
+  border-bottom: 0.5px solid #cac7d3;
+  padding-bottom: 10px;
+}
+
+.all-details .nav-pills {
+  border-bottom: none;
+  padding-bottom: 0rem;
+}
+
+.basic-info-container {
+  /* border: 0.5px solid #cac7d3; */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.basic-info-container img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.basic-info-container h6 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.basic-info-container .status {
+  color: #69b128;
+  display: block;
+}
+
+.basic-info-container .small {
+  color: #888888;
+  display: block;
+}
+
+.heart-info,
+.family-info {
+  padding: 10px;
+}
+
+.blood-pressure img {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+.blood-pressure {
+  border: 0.5px solid #cac7d3;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.blood-pressure span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.blood-pressure .rate {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.blood-pressure .small {
+  color: #888888;
+  font-size: 13px;
+}
+
+.family-info span {
+  color: #888888;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.family-info p {
+  margin-bottom: 0.1rem;
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.all-details-card {
+  padding: 5px;
+}
+
+.all-details .nav-pills .nav-link {
+  padding: 0.2rem 1rem;
+  font-size: 13px;
+}
+
+.contacts span {
+  color: #888888;
+  font-size: 11px;
+  margin-top: 2px;
+  margin-right: 3px;
+}
+
+.contacts p {
+  font-size: 12px;
+  margin-bottom: 0.2rem;
+}
+
+.all-details .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff !important;
+  border-left: none !important;
+  background-color: #69b128 !important;
+  background: #f4f6f9;
+  font-size: 13px !important;
+  border-radius: 5px !important;
+}
+
+.for-print {
+  display: none;
+}
+
+.patientProfile {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.export-icon {
+  cursor: pointer;
+}
+
+.today-container .css-ha3bif-MuiTimelineItem-root:before {
+  content: "";
+  flex: none;
+  padding: 0px 0px;
+}
+
+.today-container .css-1rcbby2:before {
+  content: "";
+  flex: none;
+  padding: 0px 0px;
+}
+
+.today-container .css-55vwbm-MuiTimeline-root {
+  padding: 6px 1px;
+}
+
+.today-container ul {
+  margin-bottom: 0px;
+}
+
+.today-container .css-ha3bif-MuiTimelineItem-root {
+  min-height: 60px;
+}
+
+/* stye for vital sign for patient */
+.vital-header {
+  border-bottom: 3px solid #c4c4c4;
+}
+
+.vital-patient {
+  border: 0.5px solid #737373;
+  border-left: 5px solid #69b128;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.vital-patient img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.vital-p-name {
+  color: #69b128;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.vital-p-age {
+  color: #69b128;
+  font-size: 11px;
+  margin-left: 20px;
+}
+
+.vital-heading {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.vital-ans {
+  font-size: 10px;
+  color: #5a5a5a;
+}
+
+.vital-checkup p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.checkup-date-input {
+  border: 0.8px solid #cac7d3;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 45px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.vital-checkup input::placeholder {
+  color: blue;
+  font-size: 1.5em;
+}
+
+.vital-sign {
+  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50px 15px;
+  padding: 5px;
+  background-color: #ffff;
+}
+
+.vital-sign input[type="number"] {
+  text-align: right;
+}
+
+.vital-sign input[type="number"]:focus {
+  border: 3px solid #ffff;
+}
+
+.sign-title input {
+  border: none;
+  border-bottom: 2px solid #cac7d3;
+  width: 70%;
+  font-size: 18px;
+}
+
+.vital-sign .little-text {
+  font-size: 9px;
+  padding-top: 5px;
+}
+
+.sign-border {
+  width: 70% !important;
+  float: right !important;
+  margin-top: -5px;
+  margin-left: 0;
+  margin-right: -10px;
+}
+
+.little-heading {
+  font-size: 9px;
+}
+
+.sign-iocn {
+  margin-top: 3px;
+}
+
+.sign-iocn img {
+  width: 100% !important;
+  height: 30px;
+}
+
+.height-iocn {
+  margin-top: 3px;
+}
+
+/* style for vital sign for patient */
+
+/* style for reaction and alergies */
+.reaction-container {
+  border-radius: 5px;
+}
+
+.allergi-type-select {
+  width: 180px;
+  padding: 5px;
+  border: 0.5px solid #737373;
+  border-radius: 20px;
+}
+
+.allergy-input {
+  width: 180px;
+  padding: 4px;
+  border: 0.5px solid #737373;
+  border-radius: 20px;
+}
+
+.allergi-type {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.food-allergy-container {
+  border-radius: 5px;
+}
+
+.food-name img {
+  width: 70px;
+}
+
+/* style for reaction and alergies */
+/* style for favourite doctor */
+.favourite-doc-container {
+  border: 0.8px solid #cac7d3;
+}
+
+.favourite-doc-container .form-control-sm {
+  border-radius: 2rem;
+}
+
+.fav-doc-select {
+  padding: 4px;
+  border: 0.5px solid #737373;
+  border-radius: 20px;
+  width: 160px;
+}
+
+.fav-doc-select-all {
+  padding: 4px;
+  border: 0.5px solid #737373;
+  border-radius: 20px;
+  width: 160px;
+}
+
+.fav-doc-select-dept {
+  padding: 4px;
+  border: 0.5px solid #737373;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.fav-doc-search-btn {
+  background: #69b128;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none !important;
+  border-radius: 5px;
+}
+
+.fav-doc-cart {
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.fav-doc-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+.fav-doc-img-rating-container i {
+  color: #ffd600;
+}
+
+.fav-doc-chat-icon {
+  color: #0391fd;
+  margin-right: 4px;
+}
+
+.fav-doc-chat {
+  color: #888888;
+  font-size: 11px;
+}
+
+.fav-doc-sergon {
+  color: #888888;
+}
+
+.fav-read-more {
+  color: #69b128;
+  font-weight: 500;
+}
+
+.btn-fav-doc-app {
+  background: #69b128;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none !important;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.fav-doc-details {
+  text-align: justify;
+  font-size: 12px;
+}
+
+.fav-doc-menu-icon {
+  font-size: 16px;
+}
+
+.fav-doc-menu-icon .fav-heart {
+  color: red;
+}
+
+.fav-doc-menu-icon .triangle-top-left {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 70px 70px 0 0;
+  border-color: #69b128 transparent transparent transparent;
+  position: relative;
+}
+
+.fav-doc-menu-icon span {
+  transform: rotate(-45deg);
+  position: absolute;
+  text-align: justify;
+
+  margin-top: 10px;
+}
+
+.fav-doc-menu-icon .years {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #fff;
+  margin-left: -70px;
+}
+
+.fav-doc-menu-icon .year {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #fff;
+  margin-left: -65px;
+}
+
+.favourite-doc-container .page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #69b128;
+  border-color: #69b128;
+  border-radius: 5px;
+}
+
+.favourite-doc-container .page-link {
+  position: relative;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+  border: none !important;
+  padding: 0.175rem 0.475rem !important;
+}
+
+/* style for favourite doctor */
+
+/* vital setup page style  */
+
+.vital-setup-container input[type="color" i] {
+  appearance: auto;
+  width: 50px;
+  height: 27px;
+  cursor: default;
+  box-sizing: border-box;
+}
+
+.vaital-setup-btn {
+  background: #69b128;
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #69b128;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+/* .vaital-setup-btn:hover {
+    background: #ffffff;
+    color: #69B128 ;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    border: 1px solid #69B128;
+    border-radius: 5px;
+} */
+.vaital-setup-btn-cancel {
+  background: #fff;
+  color: #69b128;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border: 1px solid #69b128;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.vaital-setup-btn-cancel:hover {
+  background: #69b128;
+  color: #ffffff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border: 1px solid #69b128;
+  border-radius: 5px;
+}
+
+.available-sign-container {
+  border: 0.8px solid #cac7d3;
+  border-radius: 5px;
+  height: 50vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.vital-setup-container .react-colorful {
+  height: 100px;
+  width: 120px;
+}
+
+.vital-setup-container .react-colorful__saturation {
+  border-radius: 4px 4px 0 0;
+}
+
+.vital-setup-container .react-colorful__hue {
+  height: 10px;
+  border-radius: 0 0 4px 4px;
+}
+
+.vital-setup-container .react-colorful__hue-pointer {
+  width: 6px;
+  height: inherit;
+  border-radius: 0;
+}
+
+.vital-setup-container .react-colorful__pointer {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.color-pallate {
+  border: 1px solid #cac7d3;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+/* vital set page style  */
+/* scroll style  for vital set up page  */
+.available-sign-container::-webkit-scrollbar {
+  width: 7px;
+}
+
+.available-sign-container::-webkit-scrollbar-track {
+  background: #fff !important;
+  border-left: 1px solid #ddd;
+}
+
+.available-sign-container::-webkit-scrollbar-thumb {
+  background: #918f8f !important;
+  border-radius: 10px !important;
+  padding: 2px;
+}
+
+/* scroll style   */
+
+/* Print Style */
+@media all {
+  .page-break {
+    display: none;
+  }
+}
+
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+
+  title {
+    display: none;
+  }
+}
+
+@media print {
+  .page-break {
+    margin-top: 1rem;
+    display: block;
+    page-break-before: auto;
+  }
+
+  .all-details .nav-link {
+    display: none;
+  }
+
+  .tab-content {
+    border: none;
+    border-top: 0;
+    padding: 0.2rem 0.1rem;
+    text-align: justify;
+  }
+
+  .basic-info-container {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .all-details-card {
+    border: none;
+    border-radius: 5px;
+    margin-top: -85px !important;
+  }
+
+  .personal-info {
+    border: none;
+    padding: 0;
+  }
+
+  .p-info-header {
+    border-bottom: none;
+    padding-bottom: 5px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .for-print {
+    display: block;
+  }
+
+  /* print for health card */
+  .health-card-containter {
+    width: 322px !important;
+    height: 190px !important;
+  }
+
+  .health-card-header {
+    display: none;
+  }
+
+  .health-card-bg-container {
+    height: 120px;
+  }
+
+  .health-card-back-bg {
+    height: 80px;
+  }
+
+  .card-back-content p {
+    font-size: 15px;
+  }
+
+  .health-card-bg-container .health-logo {
+    width: 157px;
+    height: 60px;
+  }
+
+  .health-card-bg-container .my-health {
+    width: 200px;
+    margin-top: 10px;
+    height: 51px;
+  }
+
+  .qr-code {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .health-patient {
+    width: 120px;
+    height: 130px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    margin-top: -35px;
+    margin-left: 30px;
+  }
+}
+
+.filter {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+@page {
+  size: auto;
+  margin: 20mm;
+}
+
+/* Print for health card Style */
+
+.newClass .btnNEw {
+  color: #c2c2c2 !important;
+}
+
+.newClass .tab-content {
+  border: none !important;
+  padding: 0rem 0rem !important;
+}
+
+.vitalCloseIcon {
+  margin-right: -22px;
+  margin-top: -8px;
+  font-size: 15px !important;
+}
+
+img.vSignImagePreview {
+  width: 28px;
+  height: 50px;
+}
+
+.fav-doc-filter .form-control-sm {
+  border-radius: 1rem;
+}
+
+.fav-doc-filter .form-select-sm {
+  border-radius: 1rem;
+}

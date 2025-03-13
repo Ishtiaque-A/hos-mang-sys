@@ -1,0 +1,28 @@
+.p-12 {
+    .item-heading {
+        color: #d63384;
+        border-top: 1px solid #d63384;
+        border-bottom: 1px solid #d381aa;
+    }
+
+    .item {
+        color: #ce81a7;
+        border-bottom: 1px solid #d381aa;
+    }
+
+    .item-heading>h6 {
+        flex-basis: 80px;
+    }
+
+    .item>h6 {
+        flex-basis: 100px;
+    }
+
+    .dental-section {
+        color: #d63384;
+    }
+
+    .dental-logo {
+        width: 60%;
+    }
+}

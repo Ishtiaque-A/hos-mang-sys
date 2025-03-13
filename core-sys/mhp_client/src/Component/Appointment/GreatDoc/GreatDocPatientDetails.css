@@ -1,0 +1,458 @@
+.local_prescription_container {
+  display: none;
+}
+
+@media print {
+  .local_prescription_container {
+    display: block;
+  }
+}
+
+.diagnosis-table {
+  border-collapse: collapse;
+  border: 1px solid #e4dddd;
+  width: 100%;
+}
+
+.diagnosis-table-row tr {
+  border: 1px solid #e4dddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.diagnosis-head {
+  background-color: #e7e7e7;
+}
+
+.diagnosis-table td {
+  border: 1px solid #e4dddd;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.diagnosis-table th {
+  border: 1px solid #e4dddd;
+}
+
+.diagnosisBoxes {
+  margin-top: -10px;
+}
+
+.diagnosisSelectBox {
+  width: 75%;
+  height: 35px;
+  font-size: 14px;
+}
+
+.autoFeelBoxes {
+  width: 75%;
+  height: 40px;
+}
+
+.procedure-container .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #fff !important;
+  border-left: none !important;
+  background-color: transparent !important;
+  background: #69b128 !important;
+  font-size: 11px !important;
+}
+
+.procedure-container .nav-pills .nav-link {
+  border: none;
+  padding: 0.5rem 1rem !important;
+}
+
+.procedure-container .nav-link {
+  font-size: 11px;
+  color: #495057 !important;
+  background-color: #fff;
+  border-radius: 5px !important;
+  box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.15) !important;
+  height: 50px !important;
+  margin-bottom: 1px;
+}
+
+.procedure-container .nav-pills {
+  border-bottom: none !important;
+  padding-bottom: 1rem;
+}
+
+/* Review */
+
+.reviewContainer {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  padding-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ffffff;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+.review-text {
+  font-size: 16px;
+  margin-left: 38%;
+  padding-top: 8px;
+  position: relative;
+}
+
+.review-select {
+  width: 25%;
+  margin-left: 34%;
+  font-size: 12px;
+  height: 35px;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2.65739px 0.231478px rgba(0, 0, 0, 0.25);
+}
+
+.review-select-two {
+  position: relative;
+  width: 25%;
+  margin-left: 34%;
+  font-size: 12px;
+  height: 35px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0px 0px 2.65739px 0.231478px rgba(0, 0, 0, 0.25);
+}
+
+.review_textarea {
+  position: relative;
+  border-radius: 10px;
+  margin-left: 85px;
+  margin-top: -6px;
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 2.65739px 0.231478px rgba(0, 0, 0, 0.25);
+}
+
+.date_text {
+  position: relative;
+  margin-left: -18%;
+  padding-top: 10px;
+}
+
+.date_picker {
+  width: 25%;
+  height: 35px;
+  position: absolute;
+  margin-right: -29%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 2.65739px 0.231478px rgba(0, 0, 0, 0.25);
+}
+
+.reminder-checkbox {
+  display: flex;
+  margin-left: 54%;
+  margin-top: 10px;
+}
+
+.check-text {
+  margin-top: -4px;
+}
+
+.last_text {
+  margin-right: 15%;
+  padding-top: 10px;
+  position: relative;
+}
+
+.other_textarea {
+  position: absolute;
+  margin-left: 29%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  box-shadow: 0px 0px 2.65739px 0.231478px rgba(0, 0, 0, 0.25);
+}
+
+.review-btn {
+  margin-right: 90px;
+  margin-top: 10px;
+}
+
+.review-btn-right {
+  float: right;
+  margin-left: 10px;
+  padding: 6px 14px;
+  color: #d4d4d4;
+  background: #69b128;
+  border-radius: 10px;
+  border: 1px solid #69b128;
+  box-shadow: 0px 0px 2.65739px 0.231478px rgba(0, 0, 0, 0.25);
+}
+
+.review-btn-left {
+  float: right;
+  padding: 6px 16px;
+  color: #ffffff;
+  background: #69b128;
+  border-radius: 10px;
+  border: 1px solid #69b128;
+  box-shadow: 0px 0px 2.65739px 0.231478px rgba(0, 0, 0, 0.25);
+}
+
+/*--------------- autoFeel -----------------*/
+
+.autofeelContainer {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.autofeelButton button {
+  background: #eaeaea;
+  width: 120px;
+  height: 30px;
+  margin-left: 65px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  margin-top: 12px;
+}
+
+.autoFeelTextArea {
+  display: flex;
+  width: 75%;
+  margin-left: 25%;
+  margin-top: -15px;
+}
+
+.autofeelSaveCancelBtn button {
+  color: #ffffff;
+  background-color: #69b128;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ced4da;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.procedure-table-row {
+  background: #e7e7e7;
+}
+
+.MTableHeader-header-13 {
+  top: 0;
+  z-index: 0 !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #777777 !important;
+}
+
+.MTableToolbar-highlight-6 {
+  color: #312e2e !important;
+  background-color: rgb(206 204 204) !important;
+}
+
+.MTableToolbar-highlight-24 {
+  color: #312e2e !important;
+  background-color: rgb(206 204 204) !important;
+}
+
+.jss6 {
+  color: #312e2e !important;
+  background-color: rgb(206 204 204) !important;
+}
+
+.jss9 {
+  color: #312e2e !important;
+  background-color: rgb(206 204 204) !important;
+}
+
+.MuiTypography-h6 {
+  margin-right: 20px !important;
+}
+
+.MTableHeader-header-12 {
+  z-index: 0 !important;
+}
+
+.doctor-prescription-menu .printDisabledbtn {
+  background-color: #f4f4f4 !important;
+  color: #d8d8d8 !important;
+  margin-bottom: 5px;
+}
+
+.jss13 {
+  z-index: 0 !important;
+}
+
+.MTableHeader-header-45 {
+  top: 0;
+  z-index: 0 !important;
+  position: sticky;
+}
+
+.MTableHeader-header-31 {
+  top: 0;
+  z-index: 0 !important;
+  position: sticky;
+  background-color: #fff;
+}
+
+.digonasisCloseModel {
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 6px;
+  margin-right: -15px;
+}
+
+.PrescribedRxDelete {
+  color: #424242;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+}
+
+.PrescribedRxDelete:hover {
+  color: red;
+  text-align: center;
+  cursor: pointer;
+}
+
+.PrescribedRxInfo {
+  color: #424242;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+}
+
+.PrescribedRxInfo:hover {
+  color: #69b128;
+  text-align: center;
+  cursor: pointer;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MTableHeader-header-13.MuiTableCell-paddingNone {
+  width: 3% !important;
+}
+
+.jodit-placeholder {
+  z-index: 0 !important;
+}
+
+.MuiTable-root .MuiTableRow-root .MuiTableRow-head th {
+  z-index: 0 !important;
+}
+
+th.MuiTableCell-root .MuiTableCell-head .MTableHeader-header-139 .MuiTableCell-alignLeft {
+  z-index: 0 !important;
+}
+
+.MuiTableRow-root .MuiTableRow-head th {
+  z-index: 0 !important;
+}
+
+.MuiTableHead-root tr th {
+  z-index: 0 !important;
+}
+
+.pastmodal_input .fDbOPw {
+  min-height: 30px !important;
+  width: 100%;
+}
+
+.past-history-card {
+  height: 360px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.patEduPlusIcon {
+  color: green;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.management-header-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.management-header-tab .tab-content {
+  border: none !important;
+  padding: 0rem 1rem !important;
+}
+
+.management-header-tab .nav-link {
+  padding: 4px !important;
+}
+
+.management-header-tab .nav-link.active {
+  border-left: none !important;
+  border-bottom: 2px solid #69b128;
+  color: #69b128 !important;
+}
+
+.mhp-patient-details-title {
+  display: inline-block;
+  width: 72px;
+}
+
+/* This Style Reason For Visit ReactSearch AutoComplete  */
+
+.search-reason-for-visit .line {
+  border-bottom: 1px solid #d7d7d7;
+  margin-bottom: 10px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.search-reason-for-visit ul {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.search-reason-for-visit ul li {
+  border-bottom: 1px solid #d7d7d7;
+  margin-bottom: 10px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.simple-scrollbar {
+  padding: 5px;
+}
+
+.search-reason-for-visit ul::-webkit-scrollbar {
+  width: 7px;
+}
+
+.search-reason-for-visit ul::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 6px;
+}
+
+.search-reason-for-visit ul::-webkit-scrollbar-track {
+  background-color: #fcfcfc;
+}
+
+/* For Firefox */
+.search-reason-for-visit ul {
+  scrollbar-width: thin;
+  scrollbar-color: #cccccc #fcfcfc;
+}
+
+
+/* treatment protocol print */
+.print-treatment-protocol {
+  display: block;
+}
+
+@media print {
+  .print-treatment-protocol {
+    display: block;
+  }
+}
+
+/* treatment protocol print */

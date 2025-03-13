@@ -1,0 +1,167 @@
+.paedriatric_btn_container{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.pedriatric_btn{
+    margin-bottom: 50px;
+    margin-top: 24px;
+}
+.pedriatric_btn_left{
+    float: right;
+    color: #008000;
+    margin-left: 9px;
+    border: 1px solid #008000;
+    padding: 2px 12px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+.pedriatric_btn_middle{
+    float: right;
+    color:#ffffff;
+    background-color: #69B128;
+    margin-left: 8px;
+    border: 1px solid gray;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.pedriatric_btn_right, .previous_btn_left{
+    float: right;
+    color:#ffffff;
+    background-color: #69B128;
+    margin-left: 8px;
+    border: 1px solid gray;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.page_box{
+    margin-right: -1px;
+}
+.page_box .page_box_input{
+    width: 60px;
+    height: 30px;
+    margin-left: 59px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.holds_hand{
+    height: 50px;
+}
+.filter_border{
+    border: 0.5px solid gray;
+    border-radius: 40px;
+}
+.chevron_icon{
+    background: #69B128;
+    display: inline;
+    margin-left: 23px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+}
+.page_text{
+    margin-right: -48px;
+    margin-left: 53px;
+}
+.filter_input_box{
+    margin-right: -114px;
+    margin-left: 111px;
+}
+
+/* page3 */
+
+.family_health_box{
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.12);
+}
+.family_health_btn{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.family_health_btn_left{
+    float: right;
+    color: #008000;
+    margin-left: 8px;
+    border: 1px solid #008000;
+    padding: 2px 12px;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.family_health_btn_middle{
+    float: right;
+    color:#ffffff;
+    background-color: #69B128;
+    margin-left: 8px;
+    border: 1px solid gray;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.family_health_btn_right {
+    float: right;
+    color:#ffffff;
+    background-color: #69B128;
+    margin-right: 32%;
+    border: 1px solid gray;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.family_health_previous_btn_left{
+    float: right;
+    color:#ffffff;
+    background-color: #69B128;
+    margin-right: 52%;
+    border: 1px solid gray;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+
+/* New born examination */
+
+.newBorn_date_box, .newBorn_boxes{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.pedriatric_page4_btn{
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.pedriatric_page4_btn_previous{
+    float: right;
+    color:#ffffff;
+    margin-right: 1%;
+    background-color: #69B128;
+    border: 1px solid #69B128;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.pedriatric_page4_btn_next{
+    float: right;
+    color:#ffffff;
+    margin-right: 1%;
+    background-color: #69B128;
+    border: 1px solid #69B128;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.pedriatric_page4_btn_right{
+    float: right;
+    color:#69B128;
+    border: 1px solid #69B128;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.pedriatric_page4_btn_left{
+    float: right;
+    color:#ffffff;
+    background-color: #69B128;
+    margin-right: 1%;
+    border: 1px solid gray;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.paediatric_last_twelve{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+

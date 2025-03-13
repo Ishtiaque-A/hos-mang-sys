@@ -1,0 +1,68 @@
+.main-parent-searchbar-container {
+  width: 370px;
+}
+
+.patient-searchbar-area {
+  width: 100%;
+  position: relative;
+}
+
+.patient-searchbar-area input {
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 8px 10px 8px 30px;
+}
+
+.patient-searchbar-area input:focus {
+  outline: none;
+}
+
+.suggestion-container {
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.test-down {
+  width: 100%;
+  height: 126px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.chckbox-control {
+  margin-bottom: -0.875rem;
+}
+
+.qr-container-patinet-details {
+  width: 180px;
+  height: 45px;
+  margin: 0 auto;
+  padding-left: 65px;
+}
+
+.total-bill {
+  background-color: #80808017;
+  margin-top: 5px;
+  padding: 5px 0;
+}
+
+.payment-name {
+  color: #69b128;
+}
+
+.delivery-invoice {
+  display: none;
+}
+
+@media print {
+  .delivery-invoice {
+    display: block;
+  }
+}
+
+.img-container {
+  height: 90px;
+}
