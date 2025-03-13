@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST='{"../components/UserChart.js -> react-apexcharts":{"id":47229,"files":[]},"../components/chart.js -> react-apexcharts":{"id":47229,"files":[]},"dashboard/index.js -> react-apexcharts":{"id":47229,"files":[]}}';
