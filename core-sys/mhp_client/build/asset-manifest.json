@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.87f9c7f6.css",
-    "main.js": "/static/js/main.40b79930.js",
-    "static/css/150.f7d72289.chunk.css": "/static/css/150.f7d72289.chunk.css",
-    "static/js/150.4dd1042f.chunk.js": "/static/js/150.4dd1042f.chunk.js",
+    "main.js": "/static/js/main.94dfae12.js",
+    "static/css/477.556bd45a.chunk.css": "/static/css/477.556bd45a.chunk.css",
+    "static/js/477.09b29d63.chunk.js": "/static/js/477.09b29d63.chunk.js",
     "static/js/787.00bd87eb.chunk.js": "/static/js/787.00bd87eb.chunk.js",
     "static/js/141.a3ced1c7.chunk.js": "/static/js/141.a3ced1c7.chunk.js",
     "static/js/236.68b7a718.chunk.js": "/static/js/236.68b7a718.chunk.js",
@@ -16,15 +16,12 @@
     "static/media/uperLimb.jpg": "/static/media/uperLimb.e839a5524f4b87a226f2.jpg",
     "static/media/image1.jpg": "/static/media/image1.c68470c7b7e4bceaca5b.jpg",
     "static/media/image3.jpg": "/static/media/image3.d6f3c12b80fea96ea322.jpg",
-    "static/media/MHP2.png": "/static/media/MHP2.3bbbefe59df85f822153.png",
     "static/media/pic1.jpg": "/static/media/pic1.5a19120debef904c510c.jpg",
     "static/media/image2.jpg": "/static/media/image2.8675ce69959bbb71db63.jpg",
     "static/media/background.png": "/static/media/background.74162b8b59096adc1a48.png",
     "static/media/default-prescription.jpg": "/static/media/default-prescription.e6a0a813c89db525a4b2.jpg",
     "static/media/health-card-bg.png": "/static/media/health-card-bg.500ea5c8685993f154cc.png",
     "static/media/local-prescription.jpg": "/static/media/local-prescription.c46d9028682826fed224.jpg",
-    "static/media/MHP.png": "/static/media/MHP.5637aabd1c04f5849751.png",
-    "static/media/img_logo1.png": "/static/media/img_logo1.5637aabd1c04f5849751.png",
     "static/media/room_booked.png": "/static/media/room_booked.4f982da0846c1f9f318a.png",
     "static/media/pic5.jpg": "/static/media/pic5.5cadb53a383923dc8c43.jpg",
     "static/media/pic4.jpg": "/static/media/pic4.fc0e1a5b54ff2cc3fb1a.jpg",
@@ -50,8 +47,8 @@
     "static/media/room104.jpg": "/static/media/room104.ecff270f8536e8ea50ca.jpg",
     "static/media/patient.png": "/static/media/patient.c45f33b8bc5cbc3809ea.png",
     "static/media/health-card-logo.png": "/static/media/health-card-logo.7f4702f0ce62d2deef7e.png",
-    "static/media/mhp-small.png": "/static/media/mhp-small.b7ab88673fe1420e03da.png",
     "static/media/crush.jpg": "/static/media/crush.4baf5501d8c23036694d.jpg",
+    "static/media/img_logo1.png": "/static/media/img_logo1.c8d3ba9f7060722b4789.png",
     "static/media/g-alergy1.png": "/static/media/g-alergy1.027fc1207dd608e17bdb.png",
     "static/media/lowerLimb_2.png": "/static/media/lowerLimb_2.170640ca891c96fe6043.png",
     "static/media/appoinment_book.png": "/static/media/appoinment_book.1ed2fed9cd40e498e3b7.png",
@@ -60,9 +57,9 @@
     "static/media/symptom2.svg": "/static/media/symptom2.f590775e7bf94f6c340e971b318c5237.svg",
     "static/media/dummy_images.svg": "/static/media/dummy_images.f3bc7cda469b38c8b516912b5e8734f7.svg",
     "main.87f9c7f6.css.map": "/static/css/main.87f9c7f6.css.map",
-    "main.40b79930.js.map": "/static/js/main.40b79930.js.map",
-    "150.f7d72289.chunk.css.map": "/static/css/150.f7d72289.chunk.css.map",
-    "150.4dd1042f.chunk.js.map": "/static/js/150.4dd1042f.chunk.js.map",
+    "main.94dfae12.js.map": "/static/js/main.94dfae12.js.map",
+    "477.556bd45a.chunk.css.map": "/static/css/477.556bd45a.chunk.css.map",
+    "477.09b29d63.chunk.js.map": "/static/js/477.09b29d63.chunk.js.map",
     "787.00bd87eb.chunk.js.map": "/static/js/787.00bd87eb.chunk.js.map",
     "141.a3ced1c7.chunk.js.map": "/static/js/141.a3ced1c7.chunk.js.map",
     "236.68b7a718.chunk.js.map": "/static/js/236.68b7a718.chunk.js.map",
@@ -74,6 +71,6 @@
   },
   "entrypoints": [
     "static/css/main.87f9c7f6.css",
-    "static/js/main.40b79930.js"
+    "static/js/main.94dfae12.js"
   ]
 }
