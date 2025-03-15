@@ -1,11 +1,11 @@
 // export const BASE_URL = "https://sinewycare.com/";
-export const BASE_URL = "http://127.0.0.1:8000/";
+export const BASE_URL = "http://35.240.213.16:8004/";
 // export const BASE_URL = "https://sandbox.saas-back.macrohealthplus.org/";
 export const API_BASE_URL = BASE_URL + "api/";
 // export const IMAGE_BASE_URL = "https://sandbox.saas.macrohealthplus.org/images/users/";
-export const IMAGE_BASE_URL = "http://localhost:3002/images/users/";
+export const IMAGE_BASE_URL = "http://35.240.213.16:8003/images/users/";
 // export const APP_URL = "http://34.126.183.51:3000/";
-export const APP_URL = "http://localhost:3002/";
+export const APP_URL = "http://35.240.213.16:8003/";
 export const LINKED_APP_URL = APP_URL + "/register";
 
 export const WEB_SOCKET_BASE_URL = "";
