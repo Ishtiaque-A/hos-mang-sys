@@ -486,7 +486,7 @@ use App\Http\Controllers\AdminSetupDoctors\MhpImmunisationSiteController;
 use App\Http\Controllers\AdminSetupDoctors\OccupationalHazardsController;
 use App\Http\Controllers\GreatDocSetup\MhpAllBodyPartFrontBackController;
 use App\Http\Controllers\GreatDocSetup\MhpInspectionMaleFemaleController;
-use App\Http\Controllers\GreatDocSetUp\Paediatric\PaediatricHealthCheck6;
+use App\Http\Controllers\GreatDocSetup\Paediatric\PaediatricHealthCheck6;
 use App\Http\Controllers\AdminSetupDoctors\MhpImmunisationRouteController;
 use App\Http\Controllers\GreatDocSetup\MhpAt90FlextionPalpationController;
 use App\Http\Controllers\GreatDocSetup\MhpBreastNippleDischargeController;
@@ -620,7 +620,7 @@ Route::get("/get-all-table-name", [AdminController::class, "getAllTableName"]);
 Route::get("/update-all-table", [AdminController::class, "updateAllTable"]);
 Route::get("/test", [AdminController::class, "test"]);
 
-//temporay Mims Api 
+//temporay Mims Api
 Route::post('/mims-products-info', [AdminController::class, 'mims_products_info']);
 
 
@@ -715,11 +715,11 @@ Route::middleware('custom_auth')->group(function () {
     Route::delete('delete-city/{id}', [CityController::class, 'destroy']);
     //ethnicity
 
-    // for Admin summary routes 
+    // for Admin summary routes
     Route::get('admin-summary', [SchedulerController::class, 'adminSummaryData']);
     Route::get('admin-summary/{id}', [SchedulerController::class, 'adminSummaryDetails']);
     Route::post("admin-summary-details-for-chart", [SchedulerController::class, 'adminSummaryDetailsForChart']);
-    // for Admin summary routes 
+    // for Admin summary routes
     //birth_sex
     Route::get('/birth-sex', [BirthSexController::class, 'index']);
     Route::post('/save-birth-sex', [BirthSexController::class, 'store']);
@@ -2281,7 +2281,7 @@ Route::middleware('custom_auth')->group(function () {
     Route::resource('great-lab-product-category', GreatLabProductCategoryController::class);
     Route::resource('great-lab-product-sub-category', GreatLabProductSubCategoryController::class);
     Route::get('great-lab-product-sub-category-by-id/{id}', [GreatLabProductSubCategoryController::class, 'subCategoryById']);
-    // purchase 
+    // purchase
     Route::resource('great-lab-central-stock', GreatLabCentralStockController::class);
     Route::resource('great-lab-purchase', GreatLabCentralStockController::class);
     Route::post('great-lab-purchase-report', [GreatLabCentralStockController::class, 'purchaseInReport']);
@@ -3768,7 +3768,7 @@ Route::middleware('custom_auth')->group(function () {
     Route::get('marketers', [GreatLabMarketerController::class, 'index']);
     Route::get('marketer/{id}', [GreatLabMarketerController::class, 'show']);
     Route::delete('marketer/{id}', [GreatLabMarketerController::class, 'destroy']);
-    //  Start Collector Set Routes 
+    //  Start Collector Set Routes
 
     // Great lab invoice
     Route::get('/great-lab-master-setup-data/{id}', [MhpGreatLabInvoiceController::class, 'masterSetupData']);
@@ -5006,7 +5006,7 @@ Route::middleware('custom_auth')->group(function () {
     Route::get('/patients-all-round/{id}', [DoctorRoundController::class, 'getPatientsAllRound']);
     Route::get('/diabetic-chart-output/{patient_id}', [DoctorRoundController::class, 'diabeticChartShow']);
     Route::get('/urine-result-output/{patient_id}', [DoctorRoundController::class, 'UrineResulttShow']);
-    // Doctor Round 
+    // Doctor Round
     Route::post('/doctor-round-save-radiology', [DoctorRoundPathologyResultController::class, 'store']);
     Route::resource('round-protocol-cycle', RoundTreatmentProtocolCycleController::class);
     Route::resource('round-protocol-name', RoundTreatmentProtocolNameController::class);
@@ -5599,7 +5599,7 @@ Route::middleware('custom_auth')->group(function () {
     // Doctors note
     Route::resource('doctors-note', DoctorsNoteController::class);
     Route::post('/doctors-note-from-nurse', [DoctorsNoteController::class, 'saveNoteFromNurse']);
-    // Doctors note 
+    // Doctors note
 
     Route::get('/ethnicity', [EthnicityController::class, 'index']);
     Route::post('/save-ethnicity', [EthnicityController::class, 'store']);
@@ -5707,7 +5707,7 @@ Route::middleware('custom_auth')->group(function () {
         Route::post('/{id}', [SocialMedialAccountController::class, 'update']);
         Route::delete('/{id}', [SocialMedialAccountController::class, 'delete']);
     });
-    // notification doctor 
+    // notification doctor
     Route::get('/doctor-notification/{id}', [PatientNotificationController::class, 'doctor_show']);
     Route::put('/doctor-notification/{id}', [PatientNotificationController::class, 'doctor_update']);
     Route::post('/upload-patient-report-file', [MhpPrescriptionController::class, "upload_lab_report"]);
@@ -5717,7 +5717,7 @@ Route::middleware('custom_auth')->group(function () {
     Route::put('lab-request-from-app-web-update/{id}', [PatientLabRequestContoller::class, 'changeStatus']);
     Route::put('lab-request-from-app-web-update-multiple', [PatientLabRequestContoller::class, 'changeStatusMultiple']);
 
-    // Investigation setup 
+    // Investigation setup
     Route::resource('investigations', InvestigationController::class);
     Route::resource('pain-relief', PainReliefController::class);
     Route::resource('hygiene', HygieneController::class);
@@ -5794,7 +5794,7 @@ Route::middleware('db_check')->group(function () {
 
         Route::post('get-patient-details-from-organization', [ClinicController::class, 'patient_details_from_organization']);
         Route::get('organization-status-update/{id}/{status}', [ClinicController::class, 'organization_status_update']);
-        // prescription from branch 
+        // prescription from branch
         Route::get('/get-patient-prescription-branch/{branch}/{hn}', [MhpGreateDocController::class, 'prescription_branch']);
         Route::middleware('app_auth')->group(function () {
             Route::post('serach-organization', [ClinicController::class, 'search_organization']);
