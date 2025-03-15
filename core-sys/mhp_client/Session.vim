@@ -13,11 +13,13 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +1 ~/Docomentss/aC/zaimah-tech/hos-mang-sys/core-sys/mhp_client/.env
+badd +7 ~/Docomentss/aC/zaimah-tech/hos-mang-sys/core-sys/mhp_client/.env
+badd +1 ~/Docomentss/aC/zaimah-tech/hos-mang-sys/core-sys/mhp_client/src/App.js
 argglobal
 %argdel
 edit ~/Docomentss/aC/zaimah-tech/hos-mang-sys/core-sys/mhp_client/.env
 argglobal
+balt ~/Docomentss/aC/zaimah-tech/hos-mang-sys/core-sys/mhp_client/src/App.js
 setlocal fdm=indent
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -26,12 +28,12 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 1 - ((0 * winheight(0) + 34) / 68)
+let s:l = 7 - ((6 * winheight(0) + 33) / 67)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1
-normal! 0
+keepjumps 7
+normal! 018|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
